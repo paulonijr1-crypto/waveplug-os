@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>html{color-scheme:light dark}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Wave Plug Command Centre</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<style>
+  :root {
+    --ink: #0E1418;
+    --ink-2: #2A363C;
+    --slate: #5B6A71;
+    --slate-2: #8497A0;
+    --paper: #EDF0F0;
+    --surface: #FFFFFF;
+    --line: #D5DCDE;
+    --line-soft: #E4E9EA;
+    --brass: #A96A2A;
+    --brass-soft: #F2E4D4;
+    --jade: #2A7355;
+    --jade-soft: #DFEDE7;
+    --clay: #A63A31;
+    --clay-soft: #F6E0DD;
+    --amber: #9A6F14;
+    --amber-soft: #F5E9CE;
+    --shadow: 0 1px 2px rgba(14,20,24,.06), 0 8px 24px -16px rgba(14,20,24,.28);
+
+    --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #E6ECEE;
+      --ink-2: #C2CFD4;
+      --slate: #93A4AC;
+      --slate-2: #6C7C84;
+      --paper: #0D1316;
+      --surface: #151E22;
+      --line: #263238;
+      --line-soft: #1E282D;
+      --brass: #D9994F;
+      --brass-soft: #33251699;
+      --jade: #5FBF93;
+      --jade-soft: #16302699;
+      --clay: #E0796D;
+      --clay-soft: #33191699;
+      --amber: #D6A840;
+      --amber-soft: #2E250E99;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #E6ECEE;
+    --ink-2: #C2CFD4;
+    --slate: #93A4AC;
+    --slate-2: #6C7C84;
+    --paper: #0D1316;
+    --surface: #151E22;
+    --line: #263238;
+    --line-soft: #1E282D;
+    --brass: #D9994F;
+    --brass-soft: #33251699;
+    --jade: #5FBF93;
+    --jade-soft: #16302699;
+    --clay: #E0796D;
+    --clay-soft: #33191699;
+    --amber: #D6A840;
+    --amber-soft: #2E250E99;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.9);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 15px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 28px 22px 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+  }
+
+  h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--slate-2);
+  }
+
+  /* ---------------------------------------------------------- masthead */
+  .masthead {
+    position: relative;
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    background: var(--surface);
+    padding: 26px 26px 0;
+    overflow: hidden;
+  }
+  .ripple {
+    position: absolute;
+    right: -70px; top: -110px;
+    width: 340px; height: 340px;
+    opacity: .5;
+    pointer-events: none;
+  }
+  .masthead-top {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 12px 18px;
+    margin-bottom: 22px;
+  }
+  h1 {
+    font-size: clamp(26px, 4.4vw, 38px);
+    font-weight: 700;
+    letter-spacing: -.024em;
+    line-height: 1.02;
+  }
+  h1 .sub { display: block; color: var(--brass); font-size: .58em; letter-spacing: -.01em; font-weight: 600; margin-top: 4px; }
+
+  .stamp {
+    margin-left: auto;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--slate-2);
+    text-align: right;
+    letter-spacing: .04em;
+  }
+
+  .money {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    border-top: 1px solid var(--line-soft);
+  }
+  .money > div {
+    padding: 18px 0 24px;
+    border-right: 1px solid var(--line-soft);
+    padding-right: 18px;
+  }
+  .money > div:last-child { border-right: 0; }
+  .money .k {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--slate-2);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .money .v {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -.03em;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.05;
+  }
+  .money .n { font-size: 12.5px; color: var(--slate); display: block; margin-top: 3px; }
+  .v.neg { color: var(--clay); }
+  .v.pos { color: var(--jade); }
+
+  /* ------------------------------------------------------------ blocks */
+  section { display: flex; flex-direction: column; gap: 14px; }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  h2 { font-size: 15px; font-weight: 600; letter-spacing: .01em; }
+  .sec-note { font-size: 13px; color: var(--slate); }
+
+  /* blocked rows: severity stripe, not cards */
+  .blocked { display: flex; flex-direction: column; gap: 1px; background: var(--line-soft); border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+  .block-row {
+    background: var(--surface);
+    padding: 15px 18px 15px 16px;
+    border-left: 3px solid var(--clay);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 4px 20px;
+    align-items: start;
+  }
+  .block-row .who { font-weight: 600; font-size: 14.5px; }
+  .block-row .what { grid-column: 1 / -1; color: var(--ink-2); font-size: 14px; }
+  .block-row .fix {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--slate);
+    background: var(--paper);
+    border: 1px solid var(--line-soft);
+    padding: 3px 7px;
+    border-radius: 2px;
+    white-space: nowrap;
+  }
+  .cost { color: var(--clay); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  /* ------------------------------------------------------------ funnel */
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 22px;
+  }
+  .funnel { display: flex; flex-direction: column; gap: 3px; }
+  .step { display: grid; grid-template-columns: 132px 1fr; gap: 14px; align-items: center; }
+  .step .lab { font-size: 13.5px; color: var(--ink-2); }
+  .step .track { position: relative; height: 34px; display: flex; align-items: center; }
+  .step .bar { height: 34px; background: var(--ink-2); border-radius: 1px; }
+  .step.last .bar { background: var(--clay); }
+  .step .val {
+    position: absolute; left: 0; top: 0; height: 34px;
+    display: flex; align-items: center; padding-left: 10px;
+    font-family: var(--mono); font-size: 13px; font-weight: 600;
+    color: var(--surface); font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .step .val.outside { position: static; color: var(--ink); padding-left: 10px; }
+  .drop {
+    display: grid; grid-template-columns: 132px 1fr; gap: 14px;
+    font-family: var(--mono); font-size: 11.5px; color: var(--slate);
+    padding: 2px 0;
+  }
+  .drop span:last-child { padding-left: 2px; }
+  .drop .bad { color: var(--clay); font-weight: 600; }
+  .leak {
+    margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--line-soft);
+    font-size: 15px; color: var(--ink-2);
+  }
+  .leak b { font-family: var(--display); font-size: 19px; color: var(--clay); letter-spacing: -.02em; }
+
+  /* --------------------------------------------------------- comparison */
+  .compare { display: flex; flex-direction: column; gap: 16px; }
+  .cmp-row { display: grid; grid-template-columns: 116px 1fr 62px; gap: 14px; align-items: center; }
+  .cmp-row .m { font-size: 13.5px; }
+  .cmp-row .m em { font-style: normal; color: var(--slate); font-size: 12px; display: block; font-variant-numeric: tabular-nums; }
+  .cmp-track { background: var(--line-soft); height: 12px; border-radius: 1px; overflow: hidden; }
+  .cmp-fill { height: 12px; border-radius: 1px; }
+  .cmp-row .p { font-family: var(--mono); font-size: 13.5px; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+
+  /* ------------------------------------------------------------- gates */
+  .gates { display: flex; flex-direction: column; gap: 1px; background: var(--line-soft); border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+  .gate {
+    background: var(--surface);
+    display: grid;
+    grid-template-columns: 26px 1fr auto;
+    gap: 14px;
+    align-items: center;
+    padding: 12px 16px;
+  }
+  .gate label { display: contents; cursor: pointer; }
+  .gate input {
+    width: 17px; height: 17px; margin: 0;
+    accent-color: var(--jade); cursor: pointer;
+  }
+  .gate .g-name { font-size: 14px; font-weight: 500; }
+  .gate .g-owner { font-family: var(--mono); font-size: 11px; color: var(--slate-2); display: block; letter-spacing: .04em; margin-top: 1px; }
+  .gate .g-state { font-family: var(--mono); font-size: 11.5px; font-weight: 500; padding: 3px 9px; border-radius: 100px; white-space: nowrap; }
+  .g-state.red { background: var(--clay-soft); color: var(--clay); }
+  .g-state.green { background: var(--jade-soft); color: var(--jade); }
+  .gate.done .g-name { color: var(--slate); text-decoration: line-through; text-decoration-color: var(--line); }
+  .gate:focus-within { outline: 2px solid var(--brass); outline-offset: -2px; }
+
+  .gate-foot {
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+    font-size: 13px; color: var(--slate);
+  }
+  .gate-foot .live { font-family: var(--mono); font-size: 11px; letter-spacing: .04em; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--slate-2); display: inline-block; }
+  .dot.on { background: var(--jade); }
+
+  /* ------------------------------------------------------------- fleet */
+  .fleet { display: grid; grid-template-columns: repeat(auto-fill, minmax(212px, 1fr)); gap: 1px; background: var(--line-soft); border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+  .agent { background: var(--surface); padding: 13px 15px; display: flex; flex-direction: column; gap: 2px; }
+  .agent .n { font-family: var(--display); font-weight: 600; font-size: 14.5px; letter-spacing: -.01em; }
+  .agent .o { font-size: 12.5px; color: var(--slate); }
+  .agent.new .n::after {
+    content: "NEW"; font-family: var(--mono); font-size: 9px; font-weight: 600;
+    letter-spacing: .1em; color: var(--brass); background: var(--brass-soft);
+    padding: 2px 5px; border-radius: 2px; margin-left: 7px; vertical-align: 2px;
+  }
+
+  /* -------------------------------------------------------------- week */
+  ol.week { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 1px; background: var(--line-soft); border: 1px solid var(--line); border-radius: 3px; overflow: hidden; }
+  ol.week li { background: var(--surface); padding: 14px 16px; display: grid; grid-template-columns: 26px 1fr auto; gap: 14px; align-items: baseline; }
+  ol.week .rank { font-family: var(--mono); font-size: 12px; color: var(--brass); font-weight: 600; }
+  ol.week .t { font-size: 14.5px; }
+  ol.week .t em { font-style: normal; display: block; color: var(--slate); font-size: 12.5px; margin-top: 2px; }
+  ol.week .worth { font-family: var(--mono); font-size: 12px; color: var(--jade); font-weight: 600; white-space: nowrap; }
+
+  /* ------------------------------------------------------------- trend */
+  .trend { display: flex; align-items: flex-end; gap: 4px; height: 74px; margin-top: 4px; }
+  .trend .col { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; }
+  .trend .fill { background: var(--line); border-radius: 1px 1px 0 0; }
+  .trend .col.peak .fill { background: var(--brass); }
+  .trend .col.now .fill { background: var(--clay); }
+  .trend-x { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10.5px; color: var(--slate-2); margin-top: 6px; letter-spacing: .04em; }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding-top: 22px;
+    color: var(--slate);
+    font-size: 13.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  footer .line { font-family: var(--display); font-size: 16px; color: var(--ink-2); font-weight: 500; letter-spacing: -.01em; max-width: 60ch; }
+  footer .who { font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--slate-2); }
+
+  @media (max-width: 620px) {
+    .step, .drop { grid-template-columns: 96px 1fr; }
+    .cmp-row { grid-template-columns: 96px 1fr 54px; }
+    .money > div { border-right: 0; border-bottom: 1px solid var(--line-soft); }
+    .money > div:last-child { border-bottom: 0; }
+    .block-row { grid-template-columns: 1fr; }
+    .block-row .fix { justify-self: start; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============================================================ masthead -->
+  <header class="masthead">
+    <svg class="ripple" viewBox="0 0 340 340" aria-hidden="true">
+      <g fill="none" stroke="var(--brass)" stroke-width="1.1" opacity="0.45">
+        <circle cx="170" cy="170" r="34"></circle>
+        <circle cx="170" cy="170" r="52"></circle>
+        <circle cx="170" cy="170" r="70"></circle>
+        <circle cx="170" cy="170" r="88"></circle>
+        <circle cx="170" cy="170" r="106"></circle>
+        <circle cx="170" cy="170" r="124"></circle>
+        <circle cx="170" cy="170" r="142"></circle>
+        <circle cx="170" cy="170" r="160"></circle>
+      </g>
+    </svg>
+
+    <div class="masthead-top">
+      <h1>The Wave Plug<span class="sub">Command Centre</span></h1>
+      <div class="stamp">
+        LIVE SHOPIFY PULL<br>8 SEP 2026<br>90 DAY WINDOW
+      </div>
+    </div>
+
+    <div class="money">
+      <div>
+        <span class="k">Revenue</span>
+        <span class="v">£2,442</span>
+        <span class="n">per month, last 3 full months</span>
+      </div>
+      <div>
+        <span class="k">Target</span>
+        <span class="v pos">£20,000</span>
+        <span class="n">12 month goal</span>
+      </div>
+      <div>
+        <span class="k">Gap</span>
+        <span class="v neg">£17,558</span>
+        <span class="n">2.6× traffic, 2.8× conversion, 1.2× AOV</span>
+      </div>
+      <div>
+        <span class="k">Brush launch</span>
+        <span class="v">23 days</span>
+        <span class="n">biggest revenue event in the brand's history</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================= blocked -->
+  <section>
+    <div class="sec-head">
+      <h2>What is actually blocked</h2>
+      <span class="sec-note">Not what is unfinished. What is waiting on a decision.</span>
+    </div>
+    <div class="blocked">
+      <div class="block-row">
+        <span class="who">The whole fleet</span>
+        <span class="fix">node tools/queue.mjs</span>
+        <span class="what">13 agent proposals waiting on a yes or no, the oldest sitting <b>30 days</b>. Scout stopped proposing anything new and started writing weekly reviews about the fact that its reviews were pointless.</span>
+      </div>
+      <div class="block-row">
+        <span class="who">Scout and The Voice</span>
+        <span class="fix">node tools/post.mjs</span>
+        <span class="what"><b>5 weeks</b> since a posted video was logged. Every rule these two run on is still untested against a real outcome, and one sound called correctly at 83k went on to 5× unposted.</span>
+      </div>
+      <div class="block-row">
+        <span class="who">The Architect</span>
+        <span class="fix">node tools/scoreboard.mjs</span>
+        <span class="what">Checkout completion at <b>17.4%</b> against a healthy 45%. Worth <span class="cost">£3,600 a month</span> on traffic that already exists.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================== funnel -->
+  <section>
+    <div class="sec-head">
+      <h2>Where the money leaks</h2>
+      <span class="sec-note">11,374 sessions over 90 days, drawn to scale.</span>
+    </div>
+    <div class="panel">
+      <div class="funnel">
+        <div class="step">
+          <span class="lab">Sessions</span>
+          <span class="track"><span class="bar" style="width:100%"></span><span class="val">11,374</span></span>
+        </div>
+        <div class="drop"><span></span><span>7.1% add to cart <span class="bad">→ 10,564 leave</span></span></div>
+
+        <div class="step">
+          <span class="lab">Added to cart</span>
+          <span class="track"><span class="bar" style="width:7.1%"></span><span class="val outside">810</span></span>
+        </div>
+        <div class="drop"><span></span><span>73.0% reach checkout, this part is healthy</span></div>
+
+        <div class="step">
+          <span class="lab">Reached checkout</span>
+          <span class="track"><span class="bar" style="width:5.2%"></span><span class="val outside">591</span></span>
+        </div>
+        <div class="drop"><span></span><span><span class="bad">17.4% complete</span>, healthy is 45 to 65%</span></div>
+
+        <div class="step last">
+          <span class="lab">Bought</span>
+          <span class="track"><span class="bar" style="width:0.9%"></span><span class="val outside">103</span></span>
+        </div>
+      </div>
+      <p class="leak"><b>488 people</b> reached the last screen with their card out and left. That has been under 20% every month for a year, and it has got worse since August, not better.</p>
+    </div>
+  </section>
+
+  <!-- ========================================================== comparison -->
+  <section>
+    <div class="sec-head">
+      <h2>The prime suspect</h2>
+      <span class="sec-note">Mobile conversion by market. Same site, same products, same content.</span>
+    </div>
+    <div class="panel">
+      <div class="compare">
+        <div class="cmp-row">
+          <span class="m">United States<em>7,365 sessions</em></span>
+          <span class="cmp-track"><span class="cmp-fill" style="width:37.6%;background:var(--clay)"></span></span>
+          <span class="p" style="color:var(--clay)">0.91%</span>
+        </div>
+        <div class="cmp-row">
+          <span class="m">United Kingdom<em>1,147 sessions</em></span>
+          <span class="cmp-track"><span class="cmp-fill" style="width:72.1%;background:var(--ink-2)"></span></span>
+          <span class="p">1.74%</span>
+        </div>
+        <div class="cmp-row">
+          <span class="m">Canada<em>207 sessions</em></span>
+          <span class="cmp-track"><span class="cmp-fill" style="width:100%;background:var(--jade)"></span></span>
+          <span class="p" style="color:var(--jade)">2.42%</span>
+        </div>
+      </div>
+      <p class="leak">73% of the traffic is American and the store prices in GBP. The UK visitor is quoted in their own currency and converts at nearly double. If US mobile converted like UK mobile that is <b>+61 orders a quarter</b>, about £1,365 a month, before anything else is fixed.</p>
+    </div>
+  </section>
+
+  <!-- =============================================================== gates -->
+  <section>
+    <div class="sec-head">
+      <h2>October launch readiness</h2>
+      <span class="sec-note">Every gate was red on 8 September. Tick them as they turn.</span>
+    </div>
+    <div class="gates" id="gates"></div>
+    <div class="gate-foot">
+      <span id="gate-count">0 of 9 gates clear</span>
+      <span class="live"><span class="dot" id="sync-dot"></span> <span id="sync-label">local only</span></span>
+    </div>
+  </section>
+
+  <!-- =============================================================== fleet -->
+  <section>
+    <div class="sec-head">
+      <h2>The fleet</h2>
+      <span class="sec-note">Ten specialists under Plug, each reading one shared brand brain.</span>
+    </div>
+    <div class="fleet">
+      <div class="agent"><span class="n">Scout</span><span class="o">Sound selection, the two gate system</span></div>
+      <div class="agent"><span class="n">The Voice</span><span class="o">Voiceovers, hooks, scripts, captions</span></div>
+      <div class="agent new"><span class="n">The Professor</span><span class="o">Wave education library, YouTube long form</span></div>
+      <div class="agent new"><span class="n">The Architect</span><span class="o">Website, checkout, currency, conversion</span></div>
+      <div class="agent"><span class="n">The Postman</span><span class="o">Klaviyo, flows, campaigns</span></div>
+      <div class="agent new"><span class="n">The Closer</span><span class="o">Meta ads and paid acquisition</span></div>
+      <div class="agent new"><span class="n">The Ledger</span><span class="o">The numbers, weekly, honestly</span></div>
+      <div class="agent new"><span class="n">The Chemist</span><span class="o">Production, stock, bill of materials</span></div>
+      <div class="agent"><span class="n">The Mailman</span><span class="o">Parcels, Royal Mail labels, customs</span></div>
+      <div class="agent"><span class="n">The Receptionist</span><span class="o">Inbox, customer service, drafts only</span></div>
+    </div>
+  </section>
+
+  <!-- ================================================================ week -->
+  <section>
+    <div class="sec-head">
+      <h2>This week, in order</h2>
+      <span class="sec-note">Conversion and AOV before traffic. This order is arithmetic, not preference.</span>
+    </div>
+    <ol class="week">
+      <li>
+        <span class="rank">01</span>
+        <span class="t">Clear the approval queue in one pass<em>A rejected proposal is worth more than a pending one. Pending ones stop every agent proposing anything new.</em></span>
+        <span class="worth">15 min</span>
+      </li>
+      <li>
+        <span class="rank">02</span>
+        <span class="t">Turn on Shopify Markets so the US sees USD<em>Free on the Basic plan. Then buy from your own store on your phone, as an American, on a VPN.</em></span>
+        <span class="worth">+£1,365/mo</span>
+      </li>
+      <li>
+        <span class="rank">03</span>
+        <span class="t">Commit to a film date and log what you post<em>Restarts the learning loop. Five minutes of logging makes the next sound pick better than this one.</em></span>
+        <span class="worth">compounding</span>
+      </li>
+      <li>
+        <span class="rank">04</span>
+        <span class="t">Open the brush waitlist<em>The email list has never been sent a single campaign in two and a half years. Six weeks of collection is what the launch actually goes to.</em></span>
+        <span class="worth">launch critical</span>
+      </li>
+      <li>
+        <span class="rank">05</span>
+        <span class="t">Write down what is in the Elite Starter Pack<em>40% of revenue and its contents are recorded nowhere, so every production number that touches it is a guess.</em></span>
+        <span class="worth">2 min</span>
+      </li>
+    </ol>
+  </section>
+
+  <!-- =============================================================== trend -->
+  <section>
+    <div class="sec-head">
+      <h2>Twelve months</h2>
+      <span class="sec-note">Peaked at £4,560 in February. Down 46% since, sliding five months straight.</span>
+    </div>
+    <div class="panel">
+      <div class="trend" id="trend"></div>
+      <div class="trend-x"><span>SEP 2025</span><span>FEB 2026 · PEAK</span><span>AUG 2026</span></div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="who">The brand line, in JR's own words</span>
+    <span class="line">A community driven brand built for all wavers, making the path to elite as easy and stress free as possible.</span>
+    <span>Figures pulled live from Shopify on 8 September 2026. The full system, agents and tools live in the WavePlug OS repo.</span>
+  </footer>
+</div>
+
+<script>
+  // ------------------------------------------------------------- trend bars
+  (function () {
+    const months = [
+      ['2025-09', 2146.05], ['2025-10', 2689.99], ['2025-11', 1902.18],
+      ['2025-12', 3274.40], ['2026-01', 3865.75], ['2026-02', 4560.43],
+      ['2026-03', 3696.42], ['2026-04', 3558.85], ['2026-05', 3846.35],
+      ['2026-06', 2489.88], ['2026-07', 2615.20], ['2026-08', 2220.21]
+    ];
+    const max = Math.max(...months.map(m => m[1]));
+    const host = document.getElementById('trend');
+    months.forEach(([label, value], i) => {
+      const col = document.createElement('div');
+      col.className = 'col' + (i === 5 ? ' peak' : '') + (i === months.length - 1 ? ' now' : '');
+      const fill = document.createElement('div');
+      fill.className = 'fill';
+      fill.style.height = Math.max(4, Math.round((value / max) * 100)) + '%';
+      col.title = label + '  £' + value.toLocaleString('en-GB', { maximumFractionDigits: 0 });
+      col.appendChild(fill);
+      host.appendChild(col);
+    });
+  })();
+
+  // ------------------------------------------------------------ launch gates
+  (function () {
+    const GATES = [
+      { id: 'checkout',  name: 'Checkout completion above 35%',        owner: 'The Architect', state: '17.4%' },
+      { id: 'usd',       name: 'US sees USD, Shopify Markets on',      owner: 'The Architect', state: 'off' },
+      { id: 'express',   name: 'Shop Pay, PayPal, Apple, Google Pay',  owner: 'The Architect', state: 'unconfirmed' },
+      { id: 'deliver',   name: 'Email deliverability above 97%',       owner: 'The Postman',   state: '85 to 90%' },
+      { id: 'warmed',    name: 'List warmed, 2 emails a week',         owner: 'The Postman',   state: 'never sent' },
+      { id: 'waitlist',  name: 'Waitlist live and collecting',         owner: 'Architect + Postman', state: 'not built' },
+      { id: 'sounds',    name: 'Two launch sound beds banked',         owner: 'Scout',         state: 'pending' },
+      { id: 'stock',     name: 'Bundle BOM confirmed, stock made',     owner: 'The Chemist',   state: 'unverified' },
+      { id: 'seeded',    name: 'Brushes seeded to wave creators',      owner: 'The Voice',     state: 'not started' }
+    ];
+
+    const host = document.getElementById('gates');
+    const countEl = document.getElementById('gate-count');
+    const dot = document.getElementById('sync-dot');
+    const syncLabel = document.getElementById('sync-label');
+    let done = {};
+    let store = null;
+
+    function readLocal() {
+      try { return JSON.parse(localStorage.getItem('wp-gates') || '{}'); }
+      catch (e) { return {}; }
+    }
+    function writeLocal() {
+      try { localStorage.setItem('wp-gates', JSON.stringify(done)); } catch (e) { /* private mode */ }
+    }
+
+    function render() {
+      host.textContent = '';
+      GATES.forEach(g => {
+        const row = document.createElement('div');
+        row.className = 'gate' + (done[g.id] ? ' done' : '');
+
+        const label = document.createElement('label');
+
+        const box = document.createElement('input');
+        box.type = 'checkbox';
+        box.checked = !!done[g.id];
+        box.setAttribute('aria-label', g.name);
+        box.addEventListener('change', () => {
+          done[g.id] = box.checked;
+          if (!box.checked) delete done[g.id];
+          persist();
+          render();
+        });
+
+        const mid = document.createElement('span');
+        const nm = document.createElement('span');
+        nm.className = 'g-name';
+        nm.textContent = g.name;
+        const ow = document.createElement('span');
+        ow.className = 'g-owner';
+        ow.textContent = g.owner;
+        mid.appendChild(nm);
+        mid.appendChild(ow);
+
+        const st = document.createElement('span');
+        st.className = 'g-state ' + (done[g.id] ? 'green' : 'red');
+        st.textContent = done[g.id] ? 'clear' : g.state;
+
+        label.appendChild(box);
+        label.appendChild(mid);
+        label.appendChild(st);
+        row.appendChild(label);
+        host.appendChild(row);
+      });
+
+      const n = GATES.filter(g => done[g.id]).length;
+      countEl.textContent = n + ' of ' + GATES.length + ' gates clear';
+      countEl.style.color = n === GATES.length ? 'var(--jade)' : '';
+    }
+
+    function persist() {
+      writeLocal();
+      if (store) store.set({ done: done, updated: new Date().toISOString() }).catch(() => {});
+    }
+
+    done = readLocal();
+    render();
+
+    // Shared state when the runtime offers it, per viewer localStorage otherwise.
+    if (window.claude && typeof window.claude.use === 'function') {
+      window.claude.use('db').then(db => {
+        if (!db) return;
+        store = db.doc('launch/gates');
+        dot.classList.add('on');
+        syncLabel.textContent = 'shared';
+        store.onSnapshot(snap => {
+          const data = snap && snap.data ? (typeof snap.data === 'function' ? snap.data() : snap.data) : null;
+          if (data && data.done) {
+            done = data.done;
+            writeLocal();
+            render();
+          }
+        });
+      }).catch(() => {});
+    }
+  })();
+</script>
+
+</body>
+</html>
