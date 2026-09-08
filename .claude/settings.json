@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node tools/brief.mjs)",
+      "Bash(node tools/scoreboard.mjs)",
+      "Bash(node tools/queue.mjs:*)",
+      "Bash(node tools/post.mjs:*)",
+      "Bash(node tools/sound-score.mjs:*)",
+      "Bash(node tools/make-list.mjs:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "mcp__02765678-3503-4bac-9d29-1ec7c72334c1__run-analytics-query",
+      "mcp__02765678-3503-4bac-9d29-1ec7c72334c1__get-shop-info",
+      "mcp__02765678-3503-4bac-9d29-1ec7c72334c1__list-orders",
+      "mcp__02765678-3503-4bac-9d29-1ec7c72334c1__get-order",
+      "mcp__02765678-3503-4bac-9d29-1ec7c72334c1__get-product",
+      "mcp__02765678-3503-4bac-9d29-1ec7c72334c1__search_products",
+      "mcp__02765678-3503-4bac-9d29-1ec7c72334c1__get-inventory-levels",
+      "mcp__02765678-3503-4bac-9d29-1ec7c72334c1__graphql_query"
+    ]
+  }
+}

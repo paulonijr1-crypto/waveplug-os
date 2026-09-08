@@ -1,0 +1,96 @@
+{
+  "_comment": "Every posted video and what it did. This is the ground truth Scout and The Voice calibrate against. Add rows with: node tools/post.mjs add. Rows dated before 2026-09-08 were back filled from the learning logs and content memory, so treat their numbers as recalled, not measured.",
+  "posts": [
+    {
+      "date": "2025-01-01",
+      "approx": true,
+      "backfilled": true,
+      "sound": "rugada",
+      "genre": "funk",
+      "countAtPost": 200000,
+      "zone": "entry",
+      "format": "wash-n-style",
+      "views": 41000000,
+      "result": "win",
+      "lesson": "Anchor win. Upward bending curve, entry zone, vibe matched. The baseline the whole two gate system was built from."
+    },
+    {
+      "date": "2025-01-02",
+      "approx": true,
+      "backfilled": true,
+      "sound": "nervy (HYFY super slowed)",
+      "genre": "slowed",
+      "countAtPost": 143000,
+      "zone": "entry",
+      "format": "wash-n-style",
+      "views": 11000000,
+      "result": "win",
+      "lesson": "Day over day acceleration, slowed variant of a surging family. The slow atmospheric register is the constant, not the funk genre."
+    },
+    {
+      "date": "2025-01-03",
+      "approx": true,
+      "backfilled": true,
+      "sound": "Love Me (JMSN)",
+      "genre": "rnb",
+      "countAtPost": 800000,
+      "zone": "saturated",
+      "format": "wash-n-style",
+      "views": 14000000,
+      "result": "win",
+      "lesson": "Win at saturation. Proof that vibe fit beats zone position. Forced the rule revision that zones price the anchor game only, they are not a gate."
+    },
+    {
+      "date": "2025-01-04",
+      "approx": true,
+      "backfilled": true,
+      "sound": "Coconut Water",
+      "genre": "bouncy",
+      "zone": "entry",
+      "format": "wash-n-style",
+      "views": 3900,
+      "avgWatchSeconds": 11.2,
+      "result": "flop",
+      "lesson": "Perfect curve position, wrong vibe. Bouncy sound under a slow reveal. Position never overrides vibe."
+    },
+    {
+      "date": "2025-01-05",
+      "approx": true,
+      "backfilled": true,
+      "sound": "Deep Sea Diver",
+      "format": "wash-n-style",
+      "result": "flop",
+      "lesson": "Posted into a decelerating curve. Check acceleration, not raw growth."
+    },
+    {
+      "date": "2025-01-06",
+      "approx": true,
+      "backfilled": true,
+      "sound": "unknown",
+      "hook": "Hottest day",
+      "format": "talking",
+      "likes": 400,
+      "result": "flop",
+      "lesson": "Hook had no stakes, the visual was buried, it died mid. Weak observational hooks do not open videos."
+    },
+    {
+      "date": "2026-08-02",
+      "sound": "original sound (voiceover)",
+      "format": "DITL voiceover",
+      "series": "14 Days to Miami",
+      "episode": 1,
+      "durationSeconds": 50.83,
+      "postedAt": "17:54",
+      "views": 1300,
+      "avgWatchSeconds": 11.7,
+      "completionRate": 0.0506,
+      "likes": 91,
+      "comments": 5,
+      "shares": 1,
+      "saves": 3,
+      "newFollowers": 1,
+      "result": "flop",
+      "lesson": "50s was too long, retention died around 12s. Cut to 20 to 26s. Follow CTA barely moved, needs a payoff they would miss. Like rate was fine so the content is likeable, the problem was length and grip."
+    }
+  ]
+}

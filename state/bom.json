@@ -1,0 +1,57 @@
+{
+  "_comment": "Bill of materials. Shopify does not record what is inside a bundle, so every make list has had to be built by hand and the MAKE-LIST of 2026-09-05 had Triple Threat filed under STILL UNKNOWN. This file is the answer. Anything with confirmed:false is inferred and needs a yes from JR before it drives a production run.",
+  "bundles": {
+    "Triple Threat": {
+      "confirmed": false,
+      "source": "Inferred from the dispatch record for order #2164 (Chris Onukwube), which was packed as butter + pomade + oil.",
+      "components": {
+        "WavePlug Moisturising Butter": 1,
+        "Strawberry Silk Wave Pomade": 1,
+        "Natural Shine Oil": 1
+      }
+    },
+    "Moisturising butter + Pomade Duo": {
+      "confirmed": true,
+      "source": "Product title states the contents.",
+      "components": {
+        "WavePlug Moisturising Butter": 1,
+        "Strawberry Silk Wave Pomade": 1
+      }
+    },
+    "Shine Oil + Moisturising butter Savers Bundle": {
+      "confirmed": true,
+      "source": "Product title states the contents.",
+      "components": {
+        "Natural Shine Oil": 1,
+        "WavePlug Moisturising Butter": 1
+      }
+    },
+    "Wash N' Style Pack": {
+      "confirmed": false,
+      "source": "Inferred from the dispatch record for order #2162 (Xavier Tate), packed as detangler + shampoo bar + conditioning bar.",
+      "components": {
+        "Detangler Brush": 1,
+        "Strawberry Silk Shampoo Bar": 1,
+        "Sky Blue Conditioning bar": 1
+      }
+    },
+    "Waveplug Elite Starter Pack": {
+      "confirmed": false,
+      "source": "NEEDS JR. This is 40% of revenue and the one bundle whose contents are not recorded anywhere. Known from the dispatch logs: it ships with a brush in a Curved or Flat variant and a goodwill durag has been packed inside recent ones. The rest is unverified. Ask JR to list it once and set confirmed to true.",
+      "components": {
+        "360 Wave Brush (Curved or Flat)": 1,
+        "Black WavePlug Durag": 1
+      },
+      "unverified": true
+    },
+    "360 Wave Brush Bundle – Hard, Medium & Soft (3-Pack)": {
+      "confirmed": true,
+      "source": "Product title states the contents.",
+      "components": {
+        "360 Wave Brush Hard": 1,
+        "360 Wave Brush Medium": 1,
+        "360 Wave Brush Soft": 1
+      }
+    }
+  }
+}

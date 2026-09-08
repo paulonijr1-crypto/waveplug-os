@@ -1,0 +1,109 @@
+{
+  "_comment": "The cross agent approval queue. Every agent proposal that needs a yes or no from JR lands here instead of dying in a learning log. Managed by tools/queue.mjs. Statuses: pending, approved, rejected.",
+  "proposals": [
+    {
+      "id": "SC-01",
+      "agent": "Scout",
+      "proposed": "2026-08-09",
+      "status": "pending",
+      "title": "Pre-flight same chart check",
+      "detail": "Before diffing two CSV exports, confirm they are the same chart type. Scout once tried to diff a US Tokchart export against a Black hair hashtag video scrape and burned a session finding out they were incompatible."
+    },
+    {
+      "id": "SC-02",
+      "agent": "Scout",
+      "proposed": "2026-08-09",
+      "status": "pending",
+      "title": "Mandatory post result debrief",
+      "detail": "Every session opens by asking what happened to the last pick, so outcomes actually get logged. Without it the Pattern Library never fills and the two gate system stays unmeasured."
+    },
+    {
+      "id": "SC-03",
+      "agent": "Scout",
+      "proposed": "2026-08-09",
+      "status": "pending",
+      "title": "Settle paywalled sound IDs on JR's dashboard",
+      "detail": "When Tokchart hides a sound name behind the paywall, JR checks his own Business plan dashboard rather than Scout guessing between candidates. Cost a whole session on the KATSEYE Animal vs BBE AJ ambiguity."
+    },
+    {
+      "id": "SC-04",
+      "agent": "Scout",
+      "proposed": "2026-08-16",
+      "status": "pending",
+      "title": "Score the question bank on posted outcomes only",
+      "detail": "Drop 'Any FYP leads to verify?' from 3 to 2 and score questions by whether they led to a good posted video, not by whether a lead verified as a real sound."
+    },
+    {
+      "id": "SC-05",
+      "agent": "Scout",
+      "proposed": "2026-08-16",
+      "status": "pending",
+      "title": "Lead with the film date question",
+      "detail": "Open every run with 'are you actually posting this week, and on what day?'. If no, run the evergreen bench and skip the trend hunt entirely. This is the single highest value proposal in the queue."
+    },
+    {
+      "id": "SC-06",
+      "agent": "Scout",
+      "proposed": "2026-08-16",
+      "status": "pending",
+      "title": "Urgency clocks only on vetted sounds",
+      "detail": "Only put an urgency clock on a sound that has cleared JR's ear or carries a stated vibe hypothesis. Stops manufactured pressure on sounds nobody was going to use."
+    },
+    {
+      "id": "SC-07",
+      "agent": "Scout",
+      "proposed": "2026-08-23",
+      "status": "pending",
+      "title": "Dry week protocol",
+      "detail": "After two consecutive weeks with no posts, stop producing new shortlists. Deliver one evergreen bench pick and a single film date ask. Stacking unposted picks is pure waste."
+    },
+    {
+      "id": "SC-08",
+      "agent": "Scout",
+      "proposed": "2026-08-23",
+      "status": "pending",
+      "title": "Pick expiry at 5 days",
+      "detail": "Any sound pick older than 5 days is marked EXPIRED and never carried into a new shortlist without a fresh count. Stale counts have quietly aged into recent sessions."
+    },
+    {
+      "id": "SC-09",
+      "agent": "Scout",
+      "proposed": "2026-08-23",
+      "status": "pending",
+      "title": "Escalate the bottleneck out of Scout",
+      "detail": "Three straight zero post weeks is a filming and posting problem, not a sound selection problem. Plug should own a weekly film date commitment before Scout runs at all."
+    },
+    {
+      "id": "SC-10",
+      "agent": "Scout",
+      "proposed": "2026-08-30",
+      "status": "pending",
+      "title": "Scout self suspend on dry data",
+      "detail": "After four consecutive unscorable weekly reviews, drop to a one line no data ping and stop running full reviews until a post is logged or the queue is cleared."
+    },
+    {
+      "id": "SC-11",
+      "agent": "Scout",
+      "proposed": "2026-08-30",
+      "status": "pending",
+      "title": "Approval backlog cap",
+      "detail": "No agent proposes new rule revisions while more than 5 sit unapproved. JR gives one yes or no pass on the queue first. This rule is why the queue tool exists."
+    },
+    {
+      "id": "SC-12",
+      "agent": "Scout",
+      "proposed": "2026-09-06",
+      "status": "pending",
+      "title": "CSV export retention rule",
+      "detail": "Every Tokchart CSV a session touches gets saved to data/tokchart/trending-songs-MARKET-YYYY-MM-DD.csv before analysis starts. The only true acceleration diff this system ever ran used a file that was never retained. Any session opening on a baseline older than 7 days says so in the headline."
+    },
+    {
+      "id": "SC-13",
+      "agent": "Scout",
+      "proposed": "2026-09-06",
+      "status": "pending",
+      "title": "Pre bank the October launch sounds now",
+      "detail": "The brush drop is about 4 weeks out and a launch cannot be hostage to whatever is trending that week. Lock two evergreen bench beds in September for the launch and reveal videos."
+    }
+  ]
+}

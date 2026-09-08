@@ -1,0 +1,42 @@
+{
+  "_comment": "Live stock pulled from the Shopify Admin API on 2026-09-08. Refresh with The Chemist. Note that BUNDLES carry their own inventory number that is independent of component stock, which is exactly why the make list has to be exploded through the bill of materials in state/bom.json.",
+  "pulled": "2026-09-08",
+  "coverage": "First 20 active products by id. There are more pages, so treat missing items as unknown rather than zero.",
+  "components": {
+    "Strawberry Silk Shampoo Bar": 1,
+    "Natural Shine Oil": 3,
+    "WavePlug Crown Patch": 1,
+    "WavePlug Moisturising Butter": 1,
+    "Black WavePlug Durag": 5,
+    "Sky Blue Conditioning bar": 4,
+    "Wave Enhancing Clay Powder": 0,
+    "Apple Cider Vinegar": 1,
+    "Pearl White Leave-In Bar": 0,
+    "Mist Spray Bottle 750ml": 0,
+    "Detangler Brush": 24,
+    "Strawberry Silk Wave Pomade": 4,
+    "WavePlug Laydown Pad": 9,
+    "WavePlug Skull Cap": 8
+  },
+  "bundles": {
+    "Shine Oil + Moisturising butter Savers Bundle": 30,
+    "Moisturising butter + Pomade Duo": 10,
+    "Triple Threat": 4,
+    "Waveplug Elite Starter Pack": 4,
+    "Waveplug Elite Starter Pack / Curved Brush": 2,
+    "Waveplug Elite Starter Pack / Flat Brush": 2,
+    "360 Wave Brush Bundle – Hard, Medium & Soft (3-Pack)": 0,
+    "Wash N' Style Pack": 3
+  },
+  "buffers": {
+    "_comment": "Minimum units to hold. Below this the make list flags it. Set from what actually sells, top sellers get deeper buffers.",
+    "Strawberry Silk Shampoo Bar": 6,
+    "Strawberry Silk Wave Pomade": 6,
+    "WavePlug Moisturising Butter": 6,
+    "Natural Shine Oil": 4,
+    "Sky Blue Conditioning bar": 4,
+    "Black WavePlug Durag": 8,
+    "WavePlug Crown Patch": 4,
+    "Detangler Brush": 6
+  }
+}
