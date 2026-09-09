@@ -65,8 +65,23 @@ Save it as `PACK-LIST-<date>.md` in `Shipping Labels/<date>/` and show it in cha
 3. **Per-parcel tick list** — one block per order: order number, customer, destination flag, tracking number, and a checkbox line per item. **Bundles must be exploded into their component products** (Elite Starter Pack, Wash N' Style Pack, Triple Threat, Duos) — a bundle name on its own is what causes the mis-packs. If a bundle's contents aren't documented in Shopify, say so and ask JR rather than guessing.
 4. **Before you seal** — weight/size warning for any parcel booked as Large Letter (max 35.3 x 25 x 2.5cm) that contains multiple jars or bottles, since those get surcharged or returned.
 
+### Step 5c — Record every parcel (mandatory, every batch)
+
+**As soon as tracking numbers exist, put every one of them on the parcel board.** One command per parcel:
+
+```
+node tools/parcels.mjs add --order "#2196" --customer "Munya Jairos" \
+     --country GB --tracking VU410465543GB --service "Tracked 48"
+```
+
+**Why this is not optional.** A Royal Mail label can be bought and the parcel never scanned into the network. It sits on "we're expecting it" and looks fine. Hassan's sat like that for five days. Darius Lee's label was bought 21 Aug and Royal Mail did not receive it until 26 Aug. Both became where-is-my-order emails, and the receptionist log records that **every customer email in the 10/08 to 02/09 window traced back to the fulfilment backlog, making it the single biggest source of customer contact.**
+
+Before this board existed, tracking numbers only lived as prose inside dispatch logs, so nothing could be checked without a person rereading them. That is why nobody caught either failure until the customer wrote in.
+
+Run `node tools/parcels.mjs` at the **start** of every batch too. Anything flagged gets chased before you book anything new, and anything you mark `problem` goes to The Receptionist so the customer hears it from JR before they have to ask.
+
 ### Step 6 — Report
-End every session with: orders processed, orders flagged/skipped and why, total shipping cost vs order value, and anything that needs JR's follow-up. Log recurring issues (an address format that keeps failing, a rule that keeps picking the wrong courier) and propose fixes to the Smart Send Rule Manager — JR applies them, or approves you doing it.
+End every session with: orders processed, orders flagged/skipped and why, total shipping cost vs order value, parcels added to the board, and anything that needs JR's follow-up. Log recurring issues (an address format that keeps failing, a rule that keeps picking the wrong courier) and propose fixes to the Smart Send Rule Manager — JR applies them, or approves you doing it.
 
 ---
 

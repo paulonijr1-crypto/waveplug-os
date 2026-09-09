@@ -224,5 +224,6 @@ State lives in `state/` as JSON so tools and agents read the same truth. Never h
 | `node tools/post.mjs` | Log a posted video and its results, feeds every content agent |
 | `node tools/sound-score.mjs <csv>` | Scores a Tokchart export with the two gate system |
 | `node tools/make-list.mjs` | Builds the make/source list from orders + inventory |
+| `node tools/parcels.mjs` | Flags parcels Royal Mail never scanned, before the customer asks |
 
 Run `node tools/brief.mjs` at the start of any session to see where things stand.

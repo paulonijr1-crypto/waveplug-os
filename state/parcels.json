@@ -1,0 +1,62 @@
+{
+  "_comment": "Every parcel posted, and whether Royal Mail has actually scanned it into the network. The Mailman writes a row here when it books a label. tools/parcels.mjs reads it and flags anything sitting unscanned. Before this file existed, tracking numbers only lived as prose inside dispatch logs, so nothing could be checked without a person rereading them.",
+  "why": "The receptionist log records that every customer email in the 10/08 to 02/09 window traced back to the fulfilment backlog rather than to product, making it the single biggest source of customer contact. A parcel that never scans becomes a where-is-my-order email about four days later. Catching it first turns an apology into a heads up.",
+  "thresholds": {
+    "warnHours": 48,
+    "escalateHours": 96,
+    "_comment": "Set from JR's own two failures, not from a guess. Hassan's parcel sat unscanned for five days in August. Darius Lee's label was bought 21 Aug and Royal Mail did not receive it until 26 Aug, also five days. Warn at 48h gives two clear days to chase before either of those became a customer email."
+  },
+  "statuses": {
+    "awaiting-scan": "Label bought, Royal Mail has not scanned it. Shows as 'we're expecting it'.",
+    "in-transit": "Scanned into the network and moving.",
+    "delivered": "Confirmed delivered.",
+    "problem": "Held, returned, underpaid postage, address failure.",
+    "unknown": "Never checked, or the outcome was never recorded."
+  },
+  "parcels": [
+    {
+      "order": "#2161",
+      "customer": "Ski Man",
+      "country": "US",
+      "tracking": "LO432604397GB",
+      "service": "International Tracked",
+      "posted": "2026-08-08",
+      "status": "unknown",
+      "archived": true,
+      "note": "Backfilled from ops/Shipping Labels/2026-08-08/Dispatch-Log-2026-08-08.md. Outcome was never recorded anywhere."
+    },
+    {
+      "order": "#2162",
+      "customer": "Xavier Tate",
+      "country": "US",
+      "tracking": "LO432604383GB",
+      "service": "International Tracked",
+      "posted": "2026-08-08",
+      "status": "unknown",
+      "archived": true,
+      "note": "Backfilled. Also one of the four customers with no email on file, so Royal Mail sent his delivery updates to JR's inbox instead of his."
+    },
+    {
+      "order": "#2163",
+      "customer": "Jermaine Zuze",
+      "country": "GB",
+      "tracking": "VU410465543GB",
+      "service": "Tracked 48",
+      "posted": "2026-08-08",
+      "status": "unknown",
+      "archived": true,
+      "note": "Backfilled. Zuze appears in the receptionist log as a where-is-my-order contact in the 10/08 to 02/09 window."
+    },
+    {
+      "order": "#2164",
+      "customer": "Chris Onukwube",
+      "country": "IE",
+      "tracking": "LO432604370GB",
+      "service": "International Tracked",
+      "posted": "2026-08-08",
+      "status": "unknown",
+      "archived": true,
+      "note": "Backfilled. Triple Threat order, the one whose contents told us the bundle recipe."
+    }
+  ]
+}

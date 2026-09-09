@@ -24,7 +24,7 @@ One screen. Where the money is, what is blocked, and the three things that matte
 |---|---|
 | `CLAUDE.md` | **The brand brain.** Founder, business, products, wave knowledge, voice, platform rules, guardrails. Every agent reads this first. |
 | `.claude/agents/` | The ten specialists. |
-| `.claude/commands/` | Slash commands: `/brief` `/numbers` `/ship` `/inbox` `/sound` `/post` `/stock` `/site` `/launch` |
+| `.claude/commands/` | Slash commands: `/brief` `/numbers` `/ship` `/inbox` `/sound` `/post` `/stock` `/site` `/parcels` `/launch` |
 | `tools/` | The code layer. Node, no dependencies. |
 | `state/` | Machine readable truth. KPIs, the approval queue, the post log, stock, the bill of materials. |
 | `logs/` | One learning log per agent. Their memory across sessions. |
@@ -68,6 +68,7 @@ Handoff rule: **Scout picks the sound, Plug hands it to The Voice, The Voice wri
 | `node tools/post.mjs` | The post log and the dry streak detector |
 | `node tools/sound-score.mjs` | Scores a Tokchart export, diffs two for true acceleration |
 | `node tools/make-list.mjs` | Explodes orders through the BOM into a make and source list |
+| `node tools/parcels.mjs` | Flags parcels Royal Mail never scanned, before the customer asks |
 
 Node 18+. No install step, no dependencies, nothing to build.
 
