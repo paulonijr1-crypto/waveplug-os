@@ -9,6 +9,41 @@
   },
   "snapshots": [
     {
+      "date": "2026-09-21",
+      "window": "last 90 days",
+      "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
+      "sessions": 11587,
+      "cartAdditions": 837,
+      "reachedCheckout": 597,
+      "completedCheckout": 98,
+      "conversionRate": 0.0084578,
+      "byMarket": [
+        { "country": "United States", "device": "mobile", "sessions": 7534, "completed": 64, "cvr": 0.0084948 },
+        { "country": "United Kingdom", "device": "mobile", "sessions": 1208, "completed": 18, "cvr": 0.0149007 },
+        { "country": "United States", "device": "desktop", "sessions": 653, "completed": 4, "cvr": 0.0061256 },
+        { "country": "Canada", "device": "mobile", "sessions": 204, "completed": 5, "cvr": 0.0245098 },
+        { "country": "South Africa", "device": "mobile", "sessions": 199, "completed": 0, "cvr": 0 },
+        { "country": "France", "device": "mobile", "sessions": 170, "completed": 1, "cvr": 0.0058824 },
+        { "country": "Jamaica", "device": "mobile", "sessions": 126, "completed": 0, "cvr": 0 },
+        { "country": "Netherlands", "device": "mobile", "sessions": 124, "completed": 2, "cvr": 0.0161290 },
+        { "country": "Brazil", "device": "mobile", "sessions": 114, "completed": 0, "cvr": 0 },
+        { "country": "United Kingdom", "device": "desktop", "sessions": 76, "completed": 2, "cvr": 0.0263158 }
+      ],
+      "returningCustomers": { "returning": 78, "total": 471, "rate": 0.1656051, "window": "last 365 days" },
+      "klaviyoFlows90d": {
+        "_comment": "Klaviyo get_flow_report, conversion metric TEdekd (Placed Order), last_90_days, grouped by flow_name",
+        "totalConversionValue": 273.27,
+        "rows": [
+          { "flow": "AskTimmy | Abandoned Checkout", "recipients": 342, "deliveryRate": 0.9035, "openRate": 0.1392, "clickRate": 0.0097, "conversions": 5, "conversionValue": 211.28 },
+          { "flow": "AskTimmy | Customer Winback Flow", "recipients": 300, "deliveryRate": 0.96, "openRate": 0.2222, "clickRate": 0.0139, "conversions": 1, "conversionValue": 61.99 },
+          { "flow": "AskTimmy | Post Purchase Flow", "recipients": 232, "deliveryRate": 0.8966, "openRate": 0.2115, "clickRate": 0.0048, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Browse Abandonment", "recipients": 107, "deliveryRate": 0.8879, "openRate": 0.1368, "clickRate": 0, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Customer Thank You", "recipients": 92, "deliveryRate": 0.8913, "openRate": 0.1707, "clickRate": 0.0244, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Welcome Flow", "recipients": 76, "deliveryRate": 0.9868, "openRate": 0.2533, "clickRate": 0.0267, "conversions": 0, "conversionValue": 0 }
+        ]
+      }
+    },
+    {
       "date": "2026-09-08",
       "window": "last 90 days",
       "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
@@ -32,36 +67,36 @@
     }
   ],
   "monthlySales": {
-    "_comment": "Shopify MCP: FROM sales SHOW orders, gross_sales, total_sales, average_order_value TIMESERIES month SINCE -365d. Pulled 2026-09-08. September is partial.",
+    "_comment": "Shopify MCP: FROM sales SHOW orders, gross_sales, total_sales, average_order_value TIMESERIES month SINCE -365d. Pulled 2026-09-21. September is partial (21 of 30 days). Note: the oldest month in a 365d trailing window shrinks as the window rolls forward, so 2025-09 here is not directly comparable to the 2025-09 row recorded in the 2026-09-08 pull.",
     "rows": [
-      { "month": "2025-09", "orders": 34, "gross": 1907.62, "total": 2146.05, "aov": 56.11 },
-      { "month": "2025-10", "orders": 46, "gross": 2430.57, "total": 2689.99, "aov": 51.22 },
-      { "month": "2025-11", "orders": 28, "gross": 1797.70, "total": 1902.18, "aov": 59.12 },
-      { "month": "2025-12", "orders": 57, "gross": 2861.94, "total": 3274.40, "aov": 49.88 },
-      { "month": "2026-01", "orders": 56, "gross": 3638.70, "total": 3865.75, "aov": 62.35 },
-      { "month": "2026-02", "orders": 65, "gross": 4190.70, "total": 4560.43, "aov": 63.16 },
-      { "month": "2026-03", "orders": 46, "gross": 3369.19, "total": 3696.42, "aov": 72.14 },
-      { "month": "2026-04", "orders": 52, "gross": 3335.45, "total": 3558.85, "aov": 62.15 },
-      { "month": "2026-05", "orders": 57, "gross": 3426.91, "total": 3846.35, "aov": 57.62 },
-      { "month": "2026-06", "orders": 37, "gross": 2322.00, "total": 2489.88, "aov": 60.89 },
-      { "month": "2026-07", "orders": 37, "gross": 2305.28, "total": 2615.20, "aov": 60.42 },
-      { "month": "2026-08", "orders": 38, "gross": 1990.13, "total": 2220.21, "aov": 51.04 },
-      { "month": "2026-09", "orders": 6, "gross": 406.70, "total": 438.94, "aov": 67.40, "partial": true }
+      { "month": "2025-09", "orders": 19, "gross": 1191.69, "total": 1332.64, "aov": 62.72 },
+      { "month": "2025-10", "orders": 46, "gross": 2430.57, "total": 2689.99, "aov": 51.216 },
+      { "month": "2025-11", "orders": 28, "gross": 1797.70, "total": 1902.18, "aov": 59.118 },
+      { "month": "2025-12", "orders": 57, "gross": 2861.94, "total": 3274.40, "aov": 49.878 },
+      { "month": "2026-01", "orders": 56, "gross": 3638.70, "total": 3865.75, "aov": 62.353 },
+      { "month": "2026-02", "orders": 65, "gross": 4190.70, "total": 4560.43, "aov": 63.156 },
+      { "month": "2026-03", "orders": 46, "gross": 3369.19, "total": 3696.42, "aov": 72.138 },
+      { "month": "2026-04", "orders": 52, "gross": 3335.45, "total": 3558.85, "aov": 62.151 },
+      { "month": "2026-05", "orders": 57, "gross": 3426.91, "total": 3846.35, "aov": 57.617 },
+      { "month": "2026-06", "orders": 37, "gross": 2322.00, "total": 2489.88, "aov": 60.887 },
+      { "month": "2026-07", "orders": 37, "gross": 2305.28, "total": 2615.20, "aov": 60.417 },
+      { "month": "2026-08", "orders": 38, "gross": 1990.13, "total": 2220.21, "aov": 51.035 },
+      { "month": "2026-09", "orders": 19, "gross": 1220.05, "total": 1375.63, "aov": 63.987, "partial": true }
     ]
   },
   "topProducts": {
-    "_comment": "FROM sales SHOW gross_sales, orders GROUP BY product_title SINCE -365d. Pulled 2026-09-08.",
+    "_comment": "FROM sales SHOW gross_sales, orders GROUP BY product_title SINCE -365d. Pulled 2026-09-21.",
     "rows": [
-      { "title": "Waveplug Elite Starter Pack", "gross": 13574.02, "orders": 117 },
-      { "title": "Triple Threat", "gross": 2670.22, "orders": 46 },
-      { "title": "Strawberry Silk Shampoo Bar", "gross": 1925.62, "orders": 93 },
-      { "title": "Strawberry Silk Wave Pomade", "gross": 1568.05, "orders": 61 },
-      { "title": "WavePlug Moisturising Butter", "gross": 1362.60, "orders": 52 },
-      { "title": "360 Wave Brush Bundle 3-Pack", "gross": 1309.58, "orders": 24 },
-      { "title": "Wash N' Style Pack", "gross": 1222.93, "orders": 43 },
+      { "title": "Waveplug Elite Starter Pack", "gross": 13358.58, "orders": 115 },
+      { "title": "Triple Threat", "gross": 2764.00, "orders": 47 },
+      { "title": "Strawberry Silk Shampoo Bar", "gross": 1940.72, "orders": 92 },
+      { "title": "Strawberry Silk Wave Pomade", "gross": 1536.29, "orders": 59 },
+      { "title": "WavePlug Moisturising Butter", "gross": 1420.71, "orders": 54 },
+      { "title": "Wash N' Style Pack", "gross": 1278.95, "orders": 45 },
+      { "title": "360 Wave Brush Bundle 3-Pack", "gross": 1258.18, "orders": 23 },
       { "title": "Moisturising butter + Pomade Duo", "gross": 820.37, "orders": 18 },
-      { "title": "Natural Shine Oil", "gross": 770.74, "orders": 36 },
-      { "title": "Sky Blue Conditioning bar", "gross": 646.03, "orders": 35 }
+      { "title": "Natural Shine Oil", "gross": 808.94, "orders": 37 },
+      { "title": "Sky Blue Conditioning bar", "gross": 677.09, "orders": 36 }
     ]
   }
 }
