@@ -9,6 +9,42 @@
   },
   "snapshots": [
     {
+      "date": "2026-09-28",
+      "window": "last 90 days",
+      "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
+      "sessions": 11398,
+      "cartAdditions": 825,
+      "reachedCheckout": 591,
+      "completedCheckout": 93,
+      "conversionRate": 0.0081593,
+      "byMarket": [
+        { "country": "United States", "device": "mobile", "sessions": 7369, "completed": 62, "cvr": 0.0084136 },
+        { "country": "United Kingdom", "device": "mobile", "sessions": 1200, "completed": 17, "cvr": 0.0141667 },
+        { "country": "United States", "device": "desktop", "sessions": 638, "completed": 3, "cvr": 0.0047022 },
+        { "country": "Canada", "device": "mobile", "sessions": 201, "completed": 4, "cvr": 0.0199005 },
+        { "country": "South Africa", "device": "mobile", "sessions": 188, "completed": 0, "cvr": 0 },
+        { "country": "France", "device": "mobile", "sessions": 170, "completed": 1, "cvr": 0.0058824 },
+        { "country": "Jamaica", "device": "mobile", "sessions": 133, "completed": 0, "cvr": 0 },
+        { "country": "Netherlands", "device": "mobile", "sessions": 118, "completed": 2, "cvr": 0.0169492 },
+        { "country": "Brazil", "device": "mobile", "sessions": 115, "completed": 0, "cvr": 0 },
+        { "country": "United Kingdom", "device": "desktop", "sessions": 72, "completed": 1, "cvr": 0.0138889 }
+      ],
+      "returningCustomers": { "returning": 80, "total": 468, "rate": 0.1709402, "window": "last 365 days" },
+      "klaviyoFlows90d": {
+        "_comment": "Klaviyo get_flow_report, conversion metric TEdekd (Placed Order), last_90_days, grouped by flow_name",
+        "totalConversionValue": 295.26,
+        "rows": [
+          { "flow": "AskTimmy | Abandoned Checkout", "recipients": 329, "deliveryRate": 0.9088, "openRate": 0.1505, "clickRate": 0.0134, "conversions": 5, "conversionValue": 211.28 },
+          { "flow": "AskTimmy | Customer Winback Flow", "recipients": 296, "deliveryRate": 0.9595, "openRate": 0.2324, "clickRate": 0.0211, "conversions": 2, "conversionValue": 83.98 },
+          { "flow": "AskTimmy | Post Purchase Flow", "recipients": 237, "deliveryRate": 0.8903, "openRate": 0.2085, "clickRate": 0.0047, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Browse Abandonment", "recipients": 100, "deliveryRate": 0.89, "openRate": 0.1573, "clickRate": 0, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Customer Thank You", "recipients": 88, "deliveryRate": 0.8864, "openRate": 0.1795, "clickRate": 0.0385, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Welcome Flow", "recipients": 116, "deliveryRate": 0.9914, "openRate": 0.1913, "clickRate": 0.0174, "conversions": 0, "conversionValue": 0 },
+          { "flow": "Upsell - the other half (Butter or Pomade only, day 10)", "recipients": 4, "deliveryRate": 1, "openRate": 0.5, "clickRate": 0, "conversions": 0, "conversionValue": 0, "note": "new flow, live since 2026-09-10, not seen in prior snapshot, volume too low to read" }
+        ]
+      }
+    },
+    {
       "date": "2026-09-21",
       "window": "last 90 days",
       "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
@@ -67,9 +103,9 @@
     }
   ],
   "monthlySales": {
-    "_comment": "Shopify MCP: FROM sales SHOW orders, gross_sales, total_sales, average_order_value TIMESERIES month SINCE -365d. Pulled 2026-09-21. September is partial (21 of 30 days). Note: the oldest month in a 365d trailing window shrinks as the window rolls forward, so 2025-09 here is not directly comparable to the 2025-09 row recorded in the 2026-09-08 pull.",
+    "_comment": "Shopify MCP: FROM sales SHOW orders, gross_sales, total_sales, average_order_value TIMESERIES month SINCE -365d. Pulled 2026-09-28. September is partial (28 of 30 days). Note: the oldest month in a 365d trailing window shrinks as the window rolls forward, month rows at the edge of the window are not directly comparable pull to pull.",
     "rows": [
-      { "month": "2025-09", "orders": 19, "gross": 1191.69, "total": 1332.64, "aov": 62.72 },
+      { "month": "2025-09", "orders": 8, "gross": 579.09, "total": 634.68, "aov": 72.386 },
       { "month": "2025-10", "orders": 46, "gross": 2430.57, "total": 2689.99, "aov": 51.216 },
       { "month": "2025-11", "orders": 28, "gross": 1797.70, "total": 1902.18, "aov": 59.118 },
       { "month": "2025-12", "orders": 57, "gross": 2861.94, "total": 3274.40, "aov": 49.878 },
@@ -81,22 +117,22 @@
       { "month": "2026-06", "orders": 37, "gross": 2322.00, "total": 2489.88, "aov": 60.887 },
       { "month": "2026-07", "orders": 37, "gross": 2305.28, "total": 2615.20, "aov": 60.417 },
       { "month": "2026-08", "orders": 38, "gross": 1990.13, "total": 2220.21, "aov": 51.035 },
-      { "month": "2026-09", "orders": 19, "gross": 1220.05, "total": 1375.63, "aov": 63.987, "partial": true }
+      { "month": "2026-09", "orders": 27, "gross": 1889.23, "total": 2084.83, "aov": 69.145, "partial": true }
     ]
   },
   "topProducts": {
-    "_comment": "FROM sales SHOW gross_sales, orders GROUP BY product_title SINCE -365d. Pulled 2026-09-21.",
+    "_comment": "FROM sales SHOW gross_sales, orders GROUP BY product_title SINCE -365d. Pulled 2026-09-28.",
     "rows": [
-      { "title": "Waveplug Elite Starter Pack", "gross": 13358.58, "orders": 115 },
-      { "title": "Triple Threat", "gross": 2764.00, "orders": 47 },
-      { "title": "Strawberry Silk Shampoo Bar", "gross": 1940.72, "orders": 92 },
-      { "title": "Strawberry Silk Wave Pomade", "gross": 1536.29, "orders": 59 },
-      { "title": "WavePlug Moisturising Butter", "gross": 1420.71, "orders": 54 },
+      { "title": "Waveplug Elite Starter Pack", "gross": 13406.56, "orders": 115 },
+      { "title": "Triple Threat", "gross": 2662.52, "orders": 45 },
+      { "title": "Strawberry Silk Shampoo Bar", "gross": 1918.98, "orders": 90 },
+      { "title": "Strawberry Silk Wave Pomade", "gross": 1503.05, "orders": 57 },
+      { "title": "WavePlug Moisturising Butter", "gross": 1428.71, "orders": 54 },
       { "title": "Wash N' Style Pack", "gross": 1278.95, "orders": 45 },
-      { "title": "360 Wave Brush Bundle 3-Pack", "gross": 1258.18, "orders": 23 },
+      { "title": "360 Wave Brush Bundle 3-Pack", "gross": 1271.70, "orders": 23 },
+      { "title": "Natural Shine Oil", "gross": 837.62, "orders": 38 },
       { "title": "Moisturising butter + Pomade Duo", "gross": 820.37, "orders": 18 },
-      { "title": "Natural Shine Oil", "gross": 808.94, "orders": 37 },
-      { "title": "Sky Blue Conditioning bar", "gross": 677.09, "orders": 36 }
+      { "title": "Sky Blue Conditioning bar", "gross": 671.98, "orders": 35 }
     ]
   }
 }
