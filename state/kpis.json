@@ -9,6 +9,47 @@
   },
   "snapshots": [
     {
+      "date": "2026-10-19",
+      "window": "last 90 days",
+      "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
+      "sessions": 15423,
+      "cartAdditions": 756,
+      "reachedCheckout": 541,
+      "completedCheckout": 89,
+      "conversionRate": 0.0057706,
+      "byMarket": [
+        { "country": "United States", "device": "mobile", "sessions": 5876, "completed": 57, "cvr": 0.0097005 },
+        { "country": "United States", "device": "desktop", "sessions": 2774, "completed": 0, "cvr": 0 },
+        { "country": "United Kingdom", "device": "mobile", "sessions": 1175, "completed": 19, "cvr": 0.0161702 },
+        { "country": "Brazil", "device": "desktop", "sessions": 964, "completed": 0, "cvr": 0 },
+        { "country": "Colombia", "device": "desktop", "sessions": 490, "completed": 0, "cvr": 0 },
+        { "country": "Ecuador", "device": "desktop", "sessions": 295, "completed": 0, "cvr": 0 },
+        { "country": "South Africa", "device": "mobile", "sessions": 220, "completed": 0, "cvr": 0 },
+        { "country": "France", "device": "mobile", "sessions": 209, "completed": 1, "cvr": 0.0047847 },
+        { "country": "United Kingdom", "device": "desktop", "sessions": 209, "completed": 2, "cvr": 0.0095694 },
+        { "country": "Canada", "device": "mobile", "sessions": 204, "completed": 4, "cvr": 0.0196078 },
+        { "country": "Venezuela", "device": "desktop", "sessions": 147, "completed": 0, "cvr": 0 },
+        { "country": "Brazil", "device": "mobile", "sessions": 144, "completed": 0, "cvr": 0 }
+      ],
+      "note": "Brazil, Colombia, Ecuador and Venezuela desktop sessions (1,896 combined, 0 conversions) are still here and have grown from 1,660 last week. Same read as last week: this is referral or bot traffic, not real buyers, and it keeps inflating the session count without moving orders. US desktop (2,774 sessions, 0 completions) is a second zero-conversion block worth watching, though it is plausible that's abandoned-cart desktop browsing rather than junk.",
+      "returningCustomers": { "returning": 82, "total": 459, "rate": 0.1786492, "window": "last 365 days" },
+      "klaviyoFlows90d": {
+        "_comment": "Klaviyo get_flow_report, conversion metric TEdekd (Placed Order), last_90_days, grouped by flow_name",
+        "totalConversionValue": 218.01,
+        "rows": [
+          { "flow": "AskTimmy | Welcome Flow", "recipients": 281, "deliveryRate": 0.9858, "openRate": 0.2347, "clickRate": 0.0325, "conversions": 4, "conversionValue": 159.01 },
+          { "flow": "AskTimmy | Abandoned Checkout", "recipients": 268, "deliveryRate": 0.8918, "openRate": 0.2259, "clickRate": 0.0209, "conversions": 1, "conversionValue": 37.01 },
+          { "flow": "AskTimmy | Customer Winback Flow", "recipients": 289, "deliveryRate": 0.9585, "openRate": 0.2744, "clickRate": 0.0289, "conversions": 1, "conversionValue": 21.99 },
+          { "flow": "AskTimmy | Post Purchase Flow", "recipients": 219, "deliveryRate": 0.9041, "openRate": 0.2475, "clickRate": 0, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Customer Thank You", "recipients": 77, "deliveryRate": 0.9221, "openRate": 0.1831, "clickRate": 0.0423, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Browse Abandonment", "recipients": 60, "deliveryRate": 0.9, "openRate": 0.2222, "clickRate": 0, "conversions": 0, "conversionValue": 0 },
+          { "flow": "Upsell · the other half (Butter or Pomade only, day 10)", "recipients": 17, "deliveryRate": 1, "openRate": 0.2353, "clickRate": 0, "conversions": 0, "conversionValue": 0 },
+          { "flow": "Welcome Series - Customer v. Non-Customer", "recipients": 25, "deliveryRate": 1, "openRate": 0.24, "clickRate": 0.08, "conversions": 0, "conversionValue": 0, "note": "draft status, not live" }
+        ],
+        "note": "Total flow revenue £218.01, down from £225.02 last week, essentially flat. Same rolling 90 day window edge effect flagged before, not a real change in flow performance. Welcome Flow is now the single biggest flow earner at £159.01 (4 conversions), overtaking Abandoned Checkout, which fell as its early July conversions rolled out of the window."
+      }
+    },
+    {
       "date": "2026-10-12",
       "window": "last 90 days",
       "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
@@ -183,9 +224,9 @@
     }
   ],
   "monthlySales": {
-    "_comment": "Shopify MCP: FROM sales SHOW orders, gross_sales, total_sales, average_order_value TIMESERIES month SINCE -365d. Pulled 2026-10-12. October is partial (12 of 31 days). The oldest month in a 365d trailing window shrinks as the window rolls forward, 2025-10 is now itself a partial edge month (window starts 2025-10-12, cutting off the first 11 days), do not read it as a full month.",
+    "_comment": "Shopify MCP: FROM sales SHOW orders, gross_sales, total_sales, average_order_value TIMESERIES month SINCE -365d. Pulled 2026-10-19. October is partial (19 of 31 days). The oldest month in a 365d trailing window shrinks as the window rolls forward; 2025-10 is now a full month again since the window start moved past it.",
     "rows": [
-      { "month": "2025-10", "orders": 30, "gross": 1594.81, "total": 1799.12, "aov": 52.56, "note": "edge month, window now excludes 2025-10-01 to 2025-10-11" },
+      { "month": "2025-10", "orders": 18, "gross": 924.80, "total": 1047.08, "aov": 50.785 },
       { "month": "2025-11", "orders": 28, "gross": 1797.70, "total": 1902.18, "aov": 59.118 },
       { "month": "2025-12", "orders": 57, "gross": 2861.94, "total": 3274.40, "aov": 49.878 },
       { "month": "2026-01", "orders": 56, "gross": 3638.70, "total": 3865.75, "aov": 62.353 },
@@ -197,20 +238,20 @@
       { "month": "2026-07", "orders": 37, "gross": 2305.28, "total": 2615.20, "aov": 60.417 },
       { "month": "2026-08", "orders": 38, "gross": 1990.13, "total": 2220.21, "aov": 51.035 },
       { "month": "2026-09", "orders": 31, "gross": 2292.23, "total": 2467.59, "aov": 72.314 },
-      { "month": "2026-10", "orders": 13, "gross": 917.98, "total": 1029.73, "aov": 67.908, "partial": true }
+      { "month": "2026-10", "orders": 20, "gross": 1446.53, "total": 1592.09, "aov": 70.296, "partial": true, "note": "through day 19 of 31. Daily pace (£76.13/day) is essentially flat against last week's partial pace (£76.50/day)." }
     ]
   },
   "topProducts": {
-    "_comment": "FROM sales SHOW gross_sales, orders GROUP BY product_title SINCE -365d. Pulled 2026-10-12. One row in the raw pull had a blank product_title, gross 1363.34 across 43 orders (same unresolved line-item quirk as prior pulls), omitted here pending a check.",
+    "_comment": "FROM sales SHOW gross_sales, orders GROUP BY product_title SINCE -365d. Pulled 2026-10-19. One row in the raw pull had a blank product_title, gross 1306.76 across 40 orders (same unresolved line-item quirk as prior pulls), omitted here pending a check.",
     "rows": [
-      { "title": "Waveplug Elite Starter Pack", "gross": 13186.53, "orders": 112 },
-      { "title": "Triple Threat", "gross": 2681.02, "orders": 45 },
-      { "title": "Strawberry Silk Shampoo Bar", "gross": 2019.28, "orders": 91 },
-      { "title": "Strawberry Silk Wave Pomade", "gross": 1602.85, "orders": 61 },
-      { "title": "Bubblegum Moisturising Butter", "gross": 1461.76, "orders": 52 },
-      { "title": "360 Wave Brush Bundle – Hard, Medium & Soft (3-Pack)", "gross": 1427.52, "orders": 25 },
-      { "title": "Wash N' Style Pack", "gross": 1223.12, "orders": 43 },
-      { "title": "Moisturising butter + Pomade Duo", "gross": 820.37, "orders": 18 },
+      { "title": "Waveplug Elite Starter Pack", "gross": 13210.86, "orders": 112 },
+      { "title": "Triple Threat", "gross": 2600.05, "orders": 44 },
+      { "title": "Strawberry Silk Shampoo Bar", "gross": 1954.40, "orders": 88 },
+      { "title": "Strawberry Silk Wave Pomade", "gross": 1589.89, "orders": 60 },
+      { "title": "360 Wave Brush Bundle – Hard, Medium & Soft (3-Pack)", "gross": 1492.52, "orders": 26 },
+      { "title": "Bubblegum Moisturising Butter", "gross": 1425.12, "orders": 51 },
+      { "title": "Wash N' Style Pack", "gross": 1195.47, "orders": 42 },
+      { "title": "Moisturising butter + Pomade Duo", "gross": 779.27, "orders": 17 },
       { "title": "Bubblegum Shine Oil", "gross": 744.11, "orders": 33 }
     ]
   }
