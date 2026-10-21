@@ -30,6 +30,11 @@ _First frame: Saaheem's waves, full screen, no intro._
 
 **Caption:** is this a 9 or a 10? 🌊 drop yours, I'm rating the next batch #waves #360waves #wavecheck #4cwaves #rateit
 
+**Caption swaps (21 Oct)**
+1. ⭐ your numbers first, then mine 👀 who'd I get wrong? send your waves, part 2 is yours #waves #360waves #wavecheck #4cwaves #rateit
+2. week one or elite, everyone gets the same honest rating 🌊 send yours below #waves #360waves #wavecheck #4cwaves #waver
+3. 3 wavers, 3 honest ratings. which one you taking? 🌊 #waves #360waves #wavecheck #4cwaves #rateyourwaves
+
 **Pinned comment:** "drop your waves below 👇 best ones make part 2"
 
 **Why this spreads:**
