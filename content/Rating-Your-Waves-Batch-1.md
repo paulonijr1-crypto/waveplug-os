@@ -11,6 +11,11 @@ _First frame: Saaheem's waves, full screen, no intro._
 **On screen:** "a week in vs a nine 👀"
 **VO:** "One of these is a WEEK in. One of these is a NINE. Guess which."
 
+**Hook swaps (JR asked for a different one, 21 Oct)**
+1. ⭐ **On screen:** "rate these before I do 👀" · **VO:** "Pause. Rate these before I do. Comment your numbers, then see if you've got the eye." _First frame still Saaheem._
+2. **On screen:** "you sent them, I'm rating them" · **VO:** "Out of every pic you sent me, these three made the cut." _First frame: quick flash of all three heads._
+3. **On screen:** "jaycen asked. two more showed up." · **VO:** "Jaycen asked me to rate his waves. Then two more of you showed up." _First frame: Jaycen's comment sticker._
+
 **JAYCEN (2 to 9s)**
 **VO:** "Jaycen. One week and the pattern's ALREADY showing. Medium brush every day, durag every night. Come back in a month, I wanna see this."
 
