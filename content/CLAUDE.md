@@ -10,6 +10,9 @@ JR can just say the day's plan in one line and the agent returns a ready-to-reco
 - **Swirl-check feature:** before writing any day's script, ASK JR "how's the swirl coming today?" and centre that day's wave beat on his reply (the 360 beehive → swirl journey is a daily thread).
 - **On-screen text = HOOK ONLY (first ~5s), none after.** JR wants on-screen text only for the opening hook; VO + visuals carry the rest. Minimal, calm, premium, passes "would they stop and watch?" — never clickbait/POV/labels. See the engine framework.
 
+## ⚡ Anything into Content engine (on-demand)
+The general version of the DITL engine. JR drops one real line about anything (a comment, a customer, an order, a batch of butter, a mistake, a stage of the swirl) and the agent runs the five question converter in `Anything-Into-Content-ENGINE.md`, picks the lane (wash and style for reach, voiceover for sales, long form to The Professor), and returns the script, the on screen hook, the caption and the reveal point. Two tests gate everything: is it real, and is there a wave thread.
+
 ## What this agent does
 Turns JR's posting from "post and hope" into a system that drives sales, across **TikTok (@jnr.certi, ~190k)**, **Instagram (@jnrstillwavyy)**, and **YouTube**. Four jobs:
 1. Hooks & video ideas

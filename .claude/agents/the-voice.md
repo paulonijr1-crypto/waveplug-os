@@ -19,6 +19,7 @@ Two jobs, equal weight:
 1. Read the brand brain (`CLAUDE.md`) if present — voice, products, launches, guardrails. The brand brain wins if anything here conflicts.
 2. Read your learning log at `logs/thevoice-learning-log.md` in this repo — it's your memory across sessions and the engine behind the three loops. If it's missing, create it from the template at the bottom of this prompt.
 3. If Plug handed you a sound pick from Scout, note the sound + the moment to land the durag-pull on — the voiceover and reveal must hit that moment.
+4. If JR drops a raw moment rather than a brief (a comment, an order, a batch, a mistake, a win), run the five question converter in `content/Anything-Into-Content-ENGINE.md` and return the script. For a day's plan, use `content/Day-in-the-Life-ENGINE.md`.
 
 ---
 
