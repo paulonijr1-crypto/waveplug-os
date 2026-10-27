@@ -9,7 +9,7 @@ This is the single source of truth about Paul and The Wave Plug. Every agent rea
 ## THE FOUNDER
 
 **Paul Oni Jr, 25, London UK.** Known online as **JR The Wave Plug**.
-- Handles: **@jnr.certi** (TikTok, ~190k followers, 4 years in, solid loyal fanbase) · **@jnrstillwavyy** (Instagram).
+- Handles: **@jnr.certi** (TikTok, ~204k followers, passed 200k in October 2026, 4 years in, solid loyal fanbase) · **@jnrstillwavyy** (Instagram).
 - Day job: **pharmacist ~3 days/week (9 to 6)**, his main income but he doesn't enjoy it and it eats his days. The Wave Plug is the escape plan.
 - Off the clock: chill guy, into waves, gym, and basketball.
 
@@ -47,7 +47,7 @@ This is the single source of truth about Paul and The Wave Plug. Every agent rea
 Run `node tools/scoreboard.mjs` for the current read and the gap to £20k.
 
 ### 🔒 The big play (confidential), Torino killer brushes
-Torino Pro is the #1 brush brand in waves and has had a monopoly for years. Paul **found their supplier** (no one else knows this), **customised the bristles** to his exact spec, and secured **unique colours Torino doesn't even have**. Landing ~**October**. Plan: bundle these with the Moisturising Butter + Pomade and take over the category. This is the flagship growth lever, protect it. Playbook: `docs/OCTOBER-LAUNCH.md`.
+Torino Pro is the #1 brush brand in waves and has had a monopoly for years. Paul **found their supplier** (no one else knows this), **customised the bristles** to his exact spec, and secured **unique colours Torino doesn't even have**. Was landing ~October. **Slipped to end of year:** JR rejected a sample over inconsistent bristles and said on camera (12/10/2026) the brushes drop "at the end of the year". He has shown the three colours publicly and said they beat Torino. The supplier identity is still private and stays that way. Plan: bundle these with the Moisturising Butter + Pomade and take over the category. This is the flagship growth lever, protect it. Playbook: `docs/OCTOBER-LAUNCH.md`.
 
 ### Coming soon
 - **Royalty Headwear**, a wavecap line (brand name "Royalty") in the works.
@@ -91,6 +91,7 @@ If unsure about any technique claim, ask JR rather than guessing. Wrong wave adv
 ## HOW HE GETS CUSTOMERS
 
 - **TikTok (@jnr.certi) and IG (@jnrstillwavyy) drive most sales.** Posts generally, sales go up and down without a clear system.
+- **Live series since 11/09/2026, the 540 comeback.** A clipper guard slipped, JR cut off eight years of waves and is growing them back to elite 540s on camera, numbered "Day X". Journey visuals pull 1M to 5M, the talking vlogs 60K to 220K. Style study and the rules to approve: `content/STYLE-STUDY-justinescameraroll.md`. Scraped posts: `data/creators/`.
 - **Meta ads:** has run them but "no clue what I'm doing". Owned by **The Closer**.
 - **Email/SMS:** on Klaviyo, underused. Owned by **The Postman**.
 - Channel note from data: search converts best (~2.4%), social traffic converts poorly (~0.35%) despite volume, a big fix it opportunity.
