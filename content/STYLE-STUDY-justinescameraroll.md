@@ -344,7 +344,7 @@ After the eight moves did not click, this did. Use this version, not the eight m
 
 Line 1 is the clip. Line 2 is the only thing written. No line 2, no post. Test: cover the clip and read line 2 alone. Does it tell a stranger something about JR?
 
-JR's own words for what line 2 is doing: *"find a way to make it exciting and romantic, especially to my ideal customer, 18 to 30, from the US."*
+JR's own words for what line 2 is doing, first pass: *"find a way to make it exciting and romantic, especially to my ideal customer, 18 to 30, from the US."* Then he corrected himself: *"more so, it's already exciting and romantic."* The second version is the rule. Nothing gets made exciting. The job is to stop editing out the parts that already are.
 
 The question under every line 2: **what about this would a kid in the US with 4c hair find romantic?** Not what JR finds interesting, what the customer would want. Boring is in the viewer, not the clip. JR's calm voice means romantic, not loud: the stakes carry the excitement, the delivery stays quiet.
 
