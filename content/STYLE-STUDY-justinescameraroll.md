@@ -333,3 +333,19 @@ The test she passes every time and you do not yet: **cover the video and read th
 ### Her own words on this
 
 From her 1.4M video, September 2023, 36K followers at the time: "Do not let the lack of an aesthetic life stop you. People want to follow people they wanna be friends with, people they can relate to, and nobody can relate to perfection, because nobody has a perfect life." And her YouTube video from 28/09/2026 is titled "how to become a creator EVEN IF your life is boring". Worth the watch, that is the skill taught by the person you want it from.
+
+---
+
+## The formula, in two lines (where JR landed, 27/10/2026)
+
+After the eight moves did not click, this did. Use this version, not the eight moves, when writing with JR.
+
+**Line 1: what happened. Line 2: so what.**
+
+Line 1 is the clip. Line 2 is the only thing written. No line 2, no post. Test: cover the clip and read line 2 alone. Does it tell a stranger something about JR?
+
+JR's own words for what line 2 is doing: *"find a way to make it exciting and romantic, especially to my ideal customer, 18 to 30, from the US."*
+
+The question under every line 2: **what about this would a kid in the US with 4c hair find romantic?** Not what JR finds interesting, what the customer would want. Boring is in the viewer, not the clip. JR's calm voice means romantic, not loud: the stakes carry the excitement, the delivery stays quiet.
+
+What is romantic about JR's life to that customer: a Londoner leading an American scene; making the product by hand and using it on his own head; the numbered comeback in public; paying for the brush with pharmacy shifts instead of asking followers; packing two orders like two hundred.
