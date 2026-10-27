@@ -47,7 +47,7 @@ This is the single source of truth about Paul and The Wave Plug. Every agent rea
 Run `node tools/scoreboard.mjs` for the current read and the gap to £20k.
 
 ### 🔒 The big play (confidential), Torino killer brushes
-Torino Pro is the #1 brush brand in waves and has had a monopoly for years. Paul **found their supplier** (no one else knows this), **customised the bristles** to his exact spec, and secured **unique colours Torino doesn't even have**. Landing ~**October**. Plan: bundle these with the Moisturising Butter + Pomade and take over the category. This is the flagship growth lever, protect it. Playbook: `docs/OCTOBER-LAUNCH.md`.
+Torino Pro is the #1 brush brand in waves and has had a monopoly for years. Paul **found their supplier** (no one else knows this), **customised the bristles** to his exact spec, and secured **unique colours Torino doesn't even have**. Landing **January 2027** (JR, 27/10/2026, moved from October, he is raising the money for the order now). Plan: bundle these with the Moisturising Butter + Pomade and take over the category. This is the flagship growth lever, protect it. Playbook: `docs/OCTOBER-LAUNCH.md`.
 
 ### Coming soon
 - **Royalty Headwear**, a wavecap line (brand name "Royalty") in the works.
@@ -60,7 +60,7 @@ Torino Pro is the #1 brush brand in waves and has had a monopoly for years. Paul
 - **Flagship bundle:** Elite Starter Pack (£130). £13,574 of the last 12 months' £33,983 gross, **40% of revenue from 117 orders**.
 - **Underperformer:** skull caps, despite genuinely premium material and quality.
 - **Full range:** stylish durags, pomades, moisturising butters, oils, brushes, shampoo and conditioner bars, crown patches, laydown pads, bundles.
-- **Not sold yet but wanted:** the new Torino level brushes (Oct), Royalty wavecaps.
+- **Not sold yet but wanted:** the new Torino level brushes (January 2027), Royalty wavecaps.
 
 Top sellers by revenue, last 12 months: Elite Starter Pack £13,574 · Triple Threat £2,670 · Strawberry Silk Shampoo Bar £1,926 · Strawberry Silk Wave Pomade £1,568 · Moisturising Butter £1,363 · 360 Brush Bundle £1,310.
 

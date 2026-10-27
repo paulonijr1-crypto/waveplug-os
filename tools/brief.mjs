@@ -20,7 +20,7 @@ const live = p.posts.filter((x) => !x.backfilled);
 const lastPost = live.at(-1);
 const dry = lastPost ? daysBetween(lastPost.date, today()) : null;
 
-const launch = daysBetween(today(), '2026-10-01');
+const launch = daysBetween(today(), '2027-01-01');
 
 console.log(`\n${c.bold('THE WAVE PLUG')}  ${c.grey(today())}`);
 console.log(rule());
@@ -81,7 +81,7 @@ if (blockers.length) {
 // ------------------------------------------------------------------- the clock
 console.log(heading('THE CLOCK'));
 if (launch > 0) {
-  console.log(`${c.bold(`${launch} days`)} until the October brush launch.`);
+  console.log(`${c.bold(`${launch} days`)} until the January brush launch.`);
   console.log(
     c.grey('Checkout and email have to be fixed before it lands, or the biggest\nrevenue event in the brand history drops into a funnel that loses 82%.')
   );
