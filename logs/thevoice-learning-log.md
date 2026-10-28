@@ -35,3 +35,8 @@ This is The Voice agent's memory. It reads this first every run and writes back 
 | Date | Creator | What was pulled | Headline finding | Where it lives | Status |
 |---|---|---|---|---|---|
 | 2026-10-27 | @justinescameraroll (412K, "BTS of influencing") | Top 40 + latest 40 posts, 20 transcripts, plus JR's latest 30 and 6 of his voiceovers | JR has more reach (recent median 145K vs her 67K) but 1.2 saves per 1,000 views against her 12 to 24. She posts a point of view, he posts footage: her first spoken line is the claim, her caption finishes the sentence, her series are named and numbered, one moment becomes four posts. His talking videos run 65 to 111s and median 97K, his journey visuals median 578K. The August hook rule (no filler openers) is confirmed still unapplied in all 6 recent voiceovers | `content/STYLE-STUDY-justinescameraroll.md`, data in `data/creators/` | 6 rules written up for one yes or no pass. NOT added to the queue, it is 13 deep and SC-11 says no new proposals until cleared. Also: 27 measured posts from the scrape are sitting in `data/creators/jnr.certi-latest30-2026-10-27.json` and could backfill the Post Library in one pass |
+
+## Drafts delivered (so a dry week is diagnosable)
+| Date | Draft | Format | Line 2 | Film date | File | Posted? |
+|---|---|---|---|---|---|---|
+| 2026-10-28 | The car decision, CLA to a 2016 Mazda. JR wrote it himself with the two line formula, Plug tightened 75s to 45s | Talking over dealership and Mazda b-roll, plus 3 cutdowns | "look lit now or look crazy lit in two years" | Footage exists (JR bought the car today) | `content/SCRIPT-car-decision.md` | pending, log with `node tools/post.mjs add` |
