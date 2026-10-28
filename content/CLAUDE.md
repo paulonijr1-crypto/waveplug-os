@@ -25,7 +25,7 @@ Full workflow lives in the saved skill `waveplug-content-agent`. This file holds
 Inherited from the brand brain: calm, educational, brotherly, premium, never AI, big-brother-and-friend, Tribe of Vi as north star. Content-specific notes to be enriched from JR's answers below.
 
 ### How JR talks on camera
-- **Signature closer:** "and as always, stay wavy man" — end videos on this.
+- **Signature closer:** "and as always, stay wavy man" — end videos on this. Longer vlog version JR set on 28/10/2026, use it as written: "Anyways, watch this space. WavePlug on top. Preciate you man for watching, and as always, stay wavy man."
 - **Signature lines:** "I'm ACTUALLY thinning" · "I'm switching my ENTIRE pattern without SCALPING" (the CAPS = the words he punches for emphasis).
 - **UK slang comes out a lot** — keep it. It's core to the London-guy-in-an-American-scene identity; don't scrub it.
 - **Openers:** no fixed opener. The only job of the first second is to stop the scroll and set the tone.
