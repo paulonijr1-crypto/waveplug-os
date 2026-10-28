@@ -58,24 +58,24 @@ Show the number, never the supplier. No invoices, labels or emails with a name o
 
 ## Vlog cut, 60 to 80 seconds (JR's call, 28/10/2026)
 
-JR wanted it longer and set the ending. Retention protected with the twist at second zero and a micro hook closing every segment ("so I went to upgrade", "then I did the maths", "so the question was simple", "same logic as the hair"). Square brackets are honest specifics only JR knows. Never invent them.
+JR wanted it longer and set the ending. Retention protected with the twist at second zero and a micro hook closing every segment ("so I went to upgrade", "then I did the maths", "so the question was simple", "same as the hair"). Square brackets are honest specifics only JR knows. Never invent them. First draft of this cut ran about 260 words (closer to 95s), trimmed to about 205 words, roughly 70 to 80s at JR's calm pace. Read it aloud with a timer before filming.
 
 *(CLA then Mazda)* I was this close to buying a Mercedes CLA. I drove home in a 2016 Mazda. On purpose.
 
-*(C Class on the truck, or the warning light)* My C Class broke down for the second time in two years. Five grand in repairs between the two. I'm a pharmacist three days a week, I need to actually get to work, so I went to upgrade.
+*(C Class on the truck, or the warning light)* My C Class broke down for the second time in two years. Five grand in repairs. So I went to upgrade.
 
-*(showroom, hand on the CLA, sitting in it)* Sat in the CLA. [the one thing you noticed, the colour, the screen, the smell]. Basically had the pen in my hand. Then I did the maths.
+*(showroom, hand on the CLA, sitting in it)* Sat in the CLA. [the one thing you noticed, the colour, the screen, the smell]. Pen basically in my hand. Then I did the maths.
 
-*(brush samples, stock boxes, the notes app with the number)* The brushes land in January. The factory won't make a small batch, those boxes have to live somewhere and my room is already the warehouse, and every brush gets paid for before a single one sells. If I'm taking over the brush game properly, I need fifty grand plus. I'm not asking anyone for it. The pharmacy pays for it, and so does not buying that car.
+*(brush samples, stock boxes, the notes app with the number)* The brushes land in January. The factory won't make a small batch, and the boxes need somewhere to live, my room's already the warehouse. Taking over the brush game properly is fifty grand plus. I'm not asking anyone for it. The pharmacy pays, and so does not buying that car.
 
 So the question was simple. Look lit now, or look crazy lit in two years.
 
-*(Mazda on the forecourt, the two keys side by side)* So this is the 2016 Mazda. [one honest detail about it]. Its whole job is the pharmacy and back for a year. That's it.
+*(Mazda on the forecourt, the two keys side by side)* So this is the 2016 Mazda. [one honest detail about it]. Pharmacy and back for a year. That's its whole job.
 
-*(mirror, durag, the hair)* Same logic as the hair. Day 53 of growing my waves back. You don't get elite in a week, and you don't build the brand in a week either.
+*(mirror, durag, the hair)* Same as the hair. Day 53 of growing it back. Elite doesn't come in a week, and neither does the brand.
 
-If you feel like you've got to impress your hometown with what you drive, take this from me. Don't plan to look lit now. Plan to look lit for life.
+If you feel like you've got to impress your hometown, take this from me. Don't plan to look lit now. Plan to look lit for life.
 
 Anyways, watch this space. WavePlug on top. Preciate you man for watching, and as always, stay wavy man.
 
-If it runs over 80s spoken, trim the showroom paragraph first. On screen text and captions as above.
+If it still runs over 80s spoken, the showroom paragraph goes first. On screen text and captions as above.
