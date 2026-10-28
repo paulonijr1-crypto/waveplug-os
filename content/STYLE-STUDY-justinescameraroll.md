@@ -202,7 +202,9 @@ One more thing on this. While the checkout is losing 82 percent of the people wh
 
 You already do this well in places ("soft or medium, let me know", "which colour"). Do it on purpose and more often: name the brush line, pick the first colour, pick the drop date, pick which product gets the next tutorial. Every decision you hand over is a post with built in comments and a reason to come back for the result.
 
-### 10. Length: under 20 or packed to 60, nothing in between
+### 10. Length: there is no length rule, there is a no boring seconds rule
+
+_JR, 28/10/2026: "there's no rules in TikTok, make it interesting and you win." He is right and the data agrees. Her top 40 runs from 5 seconds to 655 seconds. Length predicted nothing, line 2 predicted everything. The paragraph below is kept as the original observation, read it as "no boring seconds", not as a length cap._
 
 Her virals are 5 to 15 seconds: one clip, one thought. Her saved content is 60 to 90 seconds and dense, every line is a step or a tool. There is almost nothing in her top 40 that is 60 seconds of chat.
 
