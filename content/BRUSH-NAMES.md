@@ -51,3 +51,43 @@ Most memorable, most divisive. Say it on camera before deciding.
 1. Say each name in a customer's sentence: "I brush with the Wolf", "I got the Piccadilly". Stiff in the mouth means stiff on the shelf.
 2. Trademark search on the line name (UK IPO and USPTO) and the handle and domain.
 3. Shortlist two, let the audience vote. That is a video (hand them the decision) and it is what Justine did when her camera series had no name.
+
+---
+
+## Second batch (JR asked for more, 28/10/2026)
+
+### Direction 7: Sneaker colourways (recommended alongside the Underground)
+Green and yellow = **Volt**, dark purple = **Grape**, metallic blue = **Royal**. Future: Bred, Infrared, Concord, Cement, Oreo, Shadow, Obsidian, Mocha, Pine Green, UNC. Every drop reads like a sneaker drop to an 18 to 30 US customer. Use the words generically, never a brand's full colourway name.
+
+### Direction 8: Anchor, Current, Still
+Hard = **Anchor** (holds the pattern while wolfing). Medium = **Current** (keeps the pattern moving and deepens it, JR's own phrase). Soft = **Still** (lays it flat). Calm, premium, wave adjacent.
+
+### Direction 9: Wolf, Connect, Lay
+Three verbs in the order a waver lives them. Hard for the **Wolf**, medium to **Connect**, soft to **Lay**. Insider language on purpose.
+
+### Direction 10: Basketball
+Soft = **Layup** (lays it down), medium = **Midrange**, hard = **Post** (post up, hold position). JR plays, the audience plays. Layup alone is a standout soft brush name.
+
+### Direction 11: Alliterated London ends
+**Greenwich Green**, **Peckham Purple**, **Brixton Blue**. Future: Richmond Red, Barking Black, Soho Silver, Wembley White. Same London romance as the Underground, more playful, no TfL question.
+
+### Direction 12: Match the shelf
+Existing products are named like sweets (Strawberry Silk, Bubblegum, Sky Blue, Pearl White). Brushes to match: **Sour Apple**, **Grape** or **Blackcurrant**, **Blue Raspberry**. No story, full consistency.
+
+### Direction 13: Sound system
+Hard = **Bass**, medium = **Mids**, soft = **Tops** (sound system word for the treble speakers, and the soft brush is the top end, the shine). Very London.
+
+### Direction 14: Dynasty (line name only)
+"Wave Plug Dynasty" over any set above. Matches the stated goal of a brand that lasts generations. Heavier than Underground, less fun.
+
+| | Hard | Medium | Soft |
+|---|---|---|---|
+| Anchor set | Anchor | Current | Still |
+| Wave verbs | Wolf | Connect | Lay |
+| Basketball | Post | Midrange | Layup |
+| Sound system | Bass | Mids | Tops |
+
+### Structural note
+If every colourway is one firmness (JR is deciding this per colour), the colour name is the whole product name and firmness names are unnecessary. "The Grape is the medium." Torino needs numbers because every colour comes in every firmness. Being simpler on purpose makes each colour feel rarer.
+
+Mixing colour system + firmness set is fine (Underground or sneaker for colour, Anchor Current Still for firmness). Say both words together out loud first. If it sounds like a cocktail, drop one.
