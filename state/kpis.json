@@ -9,6 +9,47 @@
   },
   "snapshots": [
     {
+      "date": "2026-11-02",
+      "window": "last 90 days",
+      "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
+      "sessions": 16032,
+      "cartAdditions": 784,
+      "reachedCheckout": 566,
+      "completedCheckout": 100,
+      "conversionRate": 0.0062375249500998,
+      "byMarket": [
+        { "country": "United States", "device": "mobile", "sessions": 6109, "completed": 64, "cvr": 0.0104763 },
+        { "country": "United States", "device": "desktop", "sessions": 2783, "completed": 0, "cvr": 0 },
+        { "country": "United Kingdom", "device": "mobile", "sessions": 1305, "completed": 22, "cvr": 0.0168582 },
+        { "country": "Brazil", "device": "desktop", "sessions": 985, "completed": 0, "cvr": 0 },
+        { "country": "Colombia", "device": "desktop", "sessions": 498, "completed": 0, "cvr": 0 },
+        { "country": "Ecuador", "device": "desktop", "sessions": 300, "completed": 0, "cvr": 0 },
+        { "country": "South Africa", "device": "mobile", "sessions": 280, "completed": 0, "cvr": 0 },
+        { "country": "United Kingdom", "device": "desktop", "sessions": 227, "completed": 2, "cvr": 0.0088106 },
+        { "country": "France", "device": "mobile", "sessions": 219, "completed": 1, "cvr": 0.0045662 },
+        { "country": "Canada", "device": "mobile", "sessions": 206, "completed": 3, "cvr": 0.0145631 },
+        { "country": "Brazil", "device": "mobile", "sessions": 157, "completed": 0, "cvr": 0 },
+        { "country": "Venezuela", "device": "desktop", "sessions": 155, "completed": 0, "cvr": 0 }
+      ],
+      "note": "Checkout completion 100/566 = 17.67%, up from 17.08% last week, still a small-count reading against a 45% floor, not called as recovery. Brazil/Colombia/Ecuador/Venezuela desktop sessions are 1,938 combined (985+498+300+155), flat against 1,936 last week, the first week this block has not grown after four straight weeks of growth, still 0 conversions between them. US mobile CVR 1.05% (was 1.02%), UK mobile 1.69% (was 1.80%), both roughly flat, no currency story this week specifically.",
+      "returningCustomers": { "returning": 85, "total": 468, "rate": 0.1816239, "window": "last 365 days" },
+      "klaviyoFlows90d": {
+        "_comment": "Klaviyo get_flow_report, conversion metric TEdekd (Placed Order), last_90_days, grouped by flow_name, flow_aggregation totals",
+        "totalConversionValue": 218.01,
+        "rows": [
+          { "flow": "AskTimmy | Welcome Flow", "recipients": 379, "deliveryRate": 0.9868, "openRate": 0.2674, "clickRate": 0.0321, "conversions": 4, "conversionValue": 159.01 },
+          { "flow": "AskTimmy | Abandoned Checkout", "recipients": 262, "deliveryRate": 0.9008, "openRate": 0.2500, "clickRate": 0.0254, "conversions": 1, "conversionValue": 37.01 },
+          { "flow": "AskTimmy | Customer Winback Flow", "recipients": 274, "deliveryRate": 0.9599, "openRate": 0.2852, "clickRate": 0.0304, "conversions": 1, "conversionValue": 21.99 },
+          { "flow": "AskTimmy | Customer Thank You", "recipients": 75, "deliveryRate": 0.9600, "openRate": 0.3194, "clickRate": 0.0556, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Post Purchase Flow", "recipients": 241, "deliveryRate": 0.9170, "openRate": 0.2624, "clickRate": 0, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Browse Abandonment", "recipients": 49, "deliveryRate": 0.9184, "openRate": 0.2667, "clickRate": 0.0222, "conversions": 0, "conversionValue": 0 },
+          { "flow": "Upsell · the other half (Butter or Pomade only, day 10)", "recipients": 28, "deliveryRate": 1, "openRate": 0.3929, "clickRate": 0, "conversions": 0, "conversionValue": 0 },
+          { "flow": "Welcome Series - Customer v. Non-Customer", "recipients": 19, "deliveryRate": 1, "openRate": 0.2105, "clickRate": 0, "conversions": 0, "conversionValue": 0, "note": "draft status, not live" }
+        ],
+        "note": "Total flow revenue £218.01, identical to the penny for a second straight week, and the three converting flows (Welcome, Abandoned Checkout, Winback) show the exact same recipient/conversion counts as last week's pull, meaning no new flow conversion happened in the last 7 days at all. Post Purchase (91.7%) and Abandoned Checkout (90.1%) are still under the 97% deliverability gate target from docs/OCTOBER-LAUNCH.md, unchanged for weeks."
+      }
+    },
+    {
       "date": "2026-10-26",
       "window": "last 90 days",
       "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
@@ -265,9 +306,8 @@
     }
   ],
   "monthlySales": {
-    "_comment": "Shopify MCP: FROM sales SHOW orders, gross_sales, total_sales, average_order_value TIMESERIES month SINCE -365d. Pulled 2026-10-26. October is partial (26 of 31 days). The oldest month in the 365d trailing window keeps shrinking as the window rolls forward; 2025-10 is now a partial edge month again (8 orders, not the 18 orders shown here two readings ago) since the window start moved past most of it.",
+    "_comment": "Shopify MCP: FROM sales SHOW orders, gross_sales, total_sales, average_order_value TIMESERIES month SINCE -365d. Pulled 2026-11-02. 2025-10 has now fully rolled out of the 365d window (confirms the edge-month mechanic flagged for weeks: it was 18 orders two readings ago, 8 orders last reading, gone entirely this reading). October 2026 is now a closed, full month.",
     "rows": [
-      { "month": "2025-10", "orders": 8, "gross": 451.55, "total": 488.99, "aov": 55.818, "note": "edge month, window now only catches the last few days of Oct 2025" },
       { "month": "2025-11", "orders": 28, "gross": 1797.70, "total": 1902.18, "aov": 59.118 },
       { "month": "2025-12", "orders": 57, "gross": 2861.94, "total": 3274.40, "aov": 49.878 },
       { "month": "2026-01", "orders": 56, "gross": 3638.70, "total": 3865.75, "aov": 62.353 },
@@ -279,23 +319,24 @@
       { "month": "2026-07", "orders": 37, "gross": 2305.28, "total": 2615.20, "aov": 60.417 },
       { "month": "2026-08", "orders": 38, "gross": 1990.13, "total": 2220.21, "aov": 51.035 },
       { "month": "2026-09", "orders": 31, "gross": 2292.23, "total": 2467.59, "aov": 72.314 },
-      { "month": "2026-10", "orders": 33, "gross": 2526.54, "total": 2723.63, "aov": 74.158, "partial": true, "note": "through day 26 of 31. Last week's reading (day 19) was 20 orders / £1,446.53 gross. The 7 days since added 13 orders and £1,080.01 gross, a daily pace of about £154/day, roughly double the £76/day pace through day 19. Nothing is logged as shipped this week, so this cannot be attributed to a change. Watch next week before calling it a trend." }
+      { "month": "2026-10", "orders": 43, "gross": 3313.98, "total": 3535.56, "aov": 74.593, "note": "now a closed full month. Last week's partial read through day 26 was 33 orders / £2,526.54. The last 5 days of October added 10 orders and £787.44, closing the month at the highest gross since March 2026 (£3,369.19) and up 53% on September. Nothing logged as shipped in October (queue flat at 13, no post logged) so this cannot be attributed to a cause, only reported and watched." },
+      { "month": "2026-11", "orders": 3, "gross": 112.03, "total": 130.71, "aov": 36.100, "partial": true, "note": "through day 2 of 30. Far too early to read anything into, included only for completeness." }
     ]
   },
   "topProducts": {
-    "_comment": "FROM sales SHOW gross_sales, orders GROUP BY product_title SINCE -365d. Pulled 2026-10-26. One row in the raw pull had a blank product_title, gross 1272.55 across 38 orders (same unresolved line-item quirk as prior pulls, flagged again, not investigated), omitted here pending a check.",
+    "_comment": "FROM sales SHOW gross_sales, orders GROUP BY product_title SINCE -365d. Pulled 2026-11-02. One row in the raw pull again has a blank product_title, gross 1272.55 across 38 orders, unchanged to the penny from the prior two pulls, same unresolved line-item quirk, still not investigated, omitted from the list below.",
     "rows": [
-      { "title": "Waveplug Elite Starter Pack", "gross": 13888.19, "orders": 117 },
-      { "title": "Triple Threat", "gross": 2600.05, "orders": 44 },
-      { "title": "Strawberry Silk Shampoo Bar", "gross": 1947.54, "orders": 86 },
-      { "title": "Strawberry Silk Wave Pomade", "gross": 1583.23, "orders": 59 },
-      { "title": "360 Wave Brush Bundle – Hard, Medium & Soft (3-Pack)", "gross": 1440.93, "orders": 25 },
+      { "title": "Waveplug Elite Starter Pack", "gross": 14328.54, "orders": 120 },
+      { "title": "Triple Threat", "gross": 2497.31, "orders": 42 },
+      { "title": "Strawberry Silk Shampoo Bar", "gross": 1957.13, "orders": 86 },
+      { "title": "Strawberry Silk Wave Pomade", "gross": 1609.37, "orders": 60 },
+      { "title": "360 Wave Brush Bundle – Hard, Medium & Soft (3-Pack)", "gross": 1454.62, "orders": 25 },
       { "title": "Bubblegum Moisturising Butter", "gross": 1383.19, "orders": 49 },
       { "title": "Wash N' Style Pack", "gross": 1202.47, "orders": 42 },
       { "title": "Moisturising butter + Pomade Duo", "gross": 779.27, "orders": 17 },
       { "title": "Bubblegum Shine Oil", "gross": 725.42, "orders": 32 },
-      { "title": "Flat Brushes Bundle", "gross": 679.06, "orders": 14, "note": "new entry in the top 15, not seen at this rank in prior pulls" },
-      { "title": "Sky Blue Conditioning bar", "gross": 644.81, "orders": 32 },
+      { "title": "Flat Brushes Bundle", "gross": 634.06, "orders": 13, "note": "down from £679.06/14 orders last week, an older order rolled out of the 365d window, same edge-window mechanic as the monthly figures" },
+      { "title": "Sky Blue Conditioning bar", "gross": 627.97, "orders": 31 },
       { "title": "Silky Savers Bundle", "gross": 571.79, "orders": 16 },
       { "title": "Shine Oil + Moisturising butter Savers Bundle", "gross": 567.92, "orders": 13 },
       { "title": "Wave Enhancing Clay Powder", "gross": 546.32, "orders": 27 }
