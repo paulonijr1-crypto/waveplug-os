@@ -76,7 +76,7 @@ Every agent writing content, email or scripts must get this right. JR corrected 
 - **Hair should NOT be damp when brushing.** Do not tell people to brush damp hair.
 - **The crown needs isolating** and more work than the rest of the head, or it won't connect.
 - **4C specific:** most wave advice is written for medium texture. On 4C the products sit on top instead of absorbing, which is why murumuru butter matters, it absorbs and softens, softer hair moulds, hair that moulds holds a wave.
-- **Products that soften the hair make the brush more efficient.** The butter and the brush are one system, not two products (JR, 02/11/2026).
+- **The murumuru line, JR's exact words, use it as written (02/11/2026):** *"My butter contains murumuru butter, which is known for its ability to penetrate the hair shaft and soften hair, making the hair easier to brush and maintain. All of this allows you to make progress in your waves more efficiently."* The butter and the brush are one system, not two products.
 
 If unsure about any technique claim, ask JR rather than guessing. Wrong wave advice damages the brand's core credibility.
 

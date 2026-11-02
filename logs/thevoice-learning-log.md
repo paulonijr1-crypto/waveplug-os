@@ -23,7 +23,7 @@ This is The Voice agent's memory. It reads this first every run and writes back 
 | 2026-11-02 | Origin story says Year 12 | Say 18, never Year 12. He is 25, so seven years in | JR direct, brush launch BTS script. Americans do not know Year 12 |
 | 2026-11-02 | Honest grind framing allowed "boring" | Never frame the grind as boring. Enthusiastic, "I love to be me". The grind is playful, that is where the ideas come from | JR direct, same session. "Shots up" means basketball, his stress reliever |
 | 2026-11-02 | Open may frame the video ("X starts like this") | Open needs a fight, a stake or a cost in the first five words. JR picked "One brand's had the brush game to themselves for years. That ENDS in January" over five others | JR rejected "The greatest brushes in waves start like this" as not a tough hook |
-| 2026-11-02 | Murumuru line ends at "hair that moulds holds a wave" | Add the brush: softer hair makes the brush more efficient. Butter and brush are one system | JR's own words, now in the brand brain WAVE KNOWLEDGE |
+| 2026-11-02 | Murumuru line ends at "hair that moulds holds a wave" | Use JR's exact line: murumuru butter penetrates the hair shaft and softens hair, easier to brush and maintain, progress in your waves more efficiently. Butter and brush are one system | JR's own words, verbatim in the brand brain WAVE KNOWLEDGE |
 
 ## Weekly Reviews
 | Date | Posts | Hit rate | Wrong calls | Changes proposed/approved |

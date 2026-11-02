@@ -8,7 +8,7 @@ Up at 8, drop off orders, pharmacy till 2, shots up before it gets dark (basketb
 - "Shots up" means basketball, never filming. It is his stress reliever and part of the philosophy: all grind should be playful, it is where the creativity comes from.
 - Say "18", never "Year 12". Americans do not know what Year 12 is. He is 25 now.
 - Never frame his day as boring. He is enthusiastic. "I love to be me."
-- Canon addition, his words: products that soften the hair make the brush more efficient.
+- Canon addition, his words: "my butter contains murumuru butter, which is known for its ability to penetrate the hair shaft and soften hair, making the hair easier to brush and maintain, all of this allows you to make progress in your waves more efficiently."
 - Opens need a fight, a stake or a cost in the first five words. "Start like this" describes, it does not hit.
 
 ## The hook (JR picked this one)
@@ -36,7 +36,7 @@ About 240 words. Read slow, let the footage breathe.
 >
 > Two o'clock, straight to the court, shots up before it gets dark. Clears my head. The grind's got to stay playful, that's where the ideas come from.
 >
-> Back home, the kitchen turns into the lab. Butter and pomade, by hand. Murumuru, the reason 4c hair can hold a wave. Most products sit on top of 4c. This sinks in and softens it, soft hair moulds, hair that moulds holds a wave, and softer hair makes the brush way more efficient.
+> Back home, the kitchen turns into the lab. Butter and pomade, by hand. My butter contains murumuru butter, known for its ability to penetrate the hair shaft and soften the hair, which makes it easier to brush and easier to maintain. All of that lets you make progress in your waves way more efficiently.
 >
 > Then my own waves. Had them since I was eighteen, seven years now, 4c, thin, trash for years, and the fix was the brush and the products, nothing else. [swirl line]. Every night, no exceptions. And the brush in my hand in January, bristles my exact spec, colours you've never seen on a brush. Not yet though.
 >
@@ -74,7 +74,7 @@ About 240 words. Read slow, let the footage breathe.
 >
 > Two o'clock, straight to the court, shots up before it gets dark. The grind's got to stay playful.
 >
-> Back home, the kitchen turns into the lab. Butter, pomade, by hand. Murumuru, softens the hair so the brush does more.
+> Back home, the kitchen turns into the lab. Butter, pomade, by hand. My butter contains murumuru butter, it penetrates the hair shaft and softens the hair, so it's easier to brush and easier to maintain.
 >
 > Then my own waves. [swirl line]. Every night, no exceptions.
 >
@@ -102,7 +102,7 @@ Kept for the next BTS episode. JR's punch word in caps.
 Rejected: "The greatest brushes in waves start like this." JR: it does not sound like a tough hook. It describes instead of hitting.
 
 ## Canon check
-Every hair claim is from the WAVE KNOWLEDGE section of the brand brain, including the 02/11/2026 addition that softer hair makes the brush more efficient. The brush claims are from the big play section, bristles to JR's spec and colours no other brush has. Nothing about where they come from.
+Every hair claim is from the WAVE KNOWLEDGE section of the brand brain, including the 02/11/2026 murumuru line in JR's own words. The brush claims are from the big play section, bristles to JR's spec and colours no other brush has. Nothing about where they come from.
 
 ## Still needs from JR
 The swirl line, and where the orders are going.
