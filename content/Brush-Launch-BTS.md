@@ -7,17 +7,22 @@ Up at 8, drop off orders, pharmacy till 2, get a couple of shots up before it ge
 ## The read
 Real, yes. Wave thread, the brushes run through the whole day and the evening brush is the wave beat. Stake, this is what building the greatest brushes in waves actually looks like, and nobody sees it. Lane, sales voiceover, slow and cinematic, the romanticise your life format. Product, the brushes, teased, never shown in full. Register is grateful and calm, not tired. The exclusivity is in the pace and the light, never in the words.
 
+## The hook (JR picked this one, 2026-11-02)
+> One brand's had the brush game to themselves for years. That ENDS in January.
+
+Default is no name. Saying the name is harder still and is JR's call, never the agent's. The caps word is the punch.
+
 ## On screen, first 5 seconds only, both cuts
-`behind the scenes of the brush launch`
+`the brush game changes in january`
 
 ---
 
 ## THE LONG CUT, about 80 seconds, the in depth one
 About 245 words. Every beat carries a why. Micro hook into the next beat at the end of each one.
 
-> **0 to 4s, open.** The greatest brushes in waves start like this. Not in a showroom.
+> **0 to 5s, open.** One brand's had the brush game to themselves for years. That ENDS in January. This is what it takes.
 >
-> **4 to 12s, orders out.** Up at eight. Orders by the door from last night, every one packed by me, couple going to the States. Get them off before the day starts.
+> **5 to 12s, orders out.** Up at eight. Orders by the door from last night, every one packed by me, couple going to the States. Get them off before the day starts.
 >
 > **12 to 22s, the pharmacy.** Then the pharmacy till two. Not where I want to be forever, but right now every shift goes straight into the launch, so I show up and do it properly.
 >
@@ -29,9 +34,9 @@ About 245 words. Every beat carries a why. Micro hook into the next beat at the 
 >
 > **63 to 67s, pack.** Tomorrow's orders. Starter Packs mostly. Tape, label, by the door.
 >
-> **67 to 82s, close.** Then I do it all again. Most of it's boring if I'm honest, and I wouldn't swap it. January, you'll see what this was for. Follow so you're there when it drops. I love my life. And as always, stay wavy man.
+> **67 to 82s, close.** Then I do it all again. Most of it's boring if I'm honest, and I wouldn't swap it. January, the brush game changes. Follow so you're there when it does. I love my life. And as always, stay wavy man.
 
-**To land it at 70:** drop "Not in a showroom", drop the Year 12 line, drop "Most of it's boring if I'm honest, and I wouldn't swap it".
+**To land it at 70:** drop "This is what it takes", drop the Year 12 line, drop "Most of it's boring if I'm honest, and I wouldn't swap it".
 **To push it to 100:** do not add words. Hold the kitchen shot and the mirror shot longer and let the sound carry them.
 **Swap in the real detail:** where the orders are actually going, and the real swirl line.
 
@@ -51,9 +56,9 @@ About 245 words. Every beat carries a why. Micro hook into the next beat at the 
 ---
 
 ## THE SHORT CUT, about 50 seconds
-> **0 to 3s** The greatest brushes in waves start like this.
+> **0 to 4s** One brand's had the brush game to themselves for years. That ENDS in January.
 >
-> **3 to 10s** Up at eight. Orders by the door from last night, first job is dropping them off.
+> **4 to 10s** Up at eight. Orders by the door from last night, first job is dropping them off.
 >
 > **10 to 18s** Then the pharmacy till two. It's paying for the launch right now, so I show up and do it properly.
 >
@@ -65,7 +70,7 @@ About 245 words. Every beat carries a why. Micro hook into the next beat at the 
 >
 > **42 to 46s** Tomorrow's orders packed, lined up by the door.
 >
-> **46 to 52s** Then I get ready to do it all again. January, you'll see what this was for. I love my life. And as always, stay wavy man.
+> **46 to 52s** Then I get ready to do it all again. January, the brush game changes. Follow so you're there. I love my life. And as always, stay wavy man.
 
 ---
 
@@ -73,13 +78,24 @@ About 245 words. Every beat carries a why. Micro hook into the next beat at the 
 Own voice, with a soft bed low underneath. The niche's proven register is smooth R&B and slowed soul, so from the bench, "Love Me" by JMSN or a slowed atmospheric track. Scout can make a proper pick given the film date.
 
 ## Caption, both cuts
-`behind the scenes of the brush launch. up at 8, orders out, pharmacy till 2, shots before dark, make, brush, pack, repeat. i love my life. the brushes land in january, follow so you're there #360waves #wavecheck #4cwaves #dayinthelife`
+`one brand's had the brush game to themselves for years. that ends in january. up at 8, orders out, pharmacy till 2, shots before dark, make, brush, pack, repeat. i love my life. follow so you're there #360waves #wavecheck #4cwaves #dayinthelife`
 
 ## Canon check
 Every hair claim is from the WAVE KNOWLEDGE section of the brand brain. Murumuru absorbs and softens, soft hair moulds, hair that moulds holds a wave. The brush claims are from the big play section, bristles to JR's spec and colours no other brush has. Nothing about where they come from.
+
+## Hook bank, the other options offered 2026-11-02
+Kept for the next BTS episode. JR's punch word in caps.
+1. I'm building the GREATEST brush in waves off a pharmacist's wage. On screen `greatest brush in waves. pharmacist's wage.`
+2. One brand's had the brush game to themselves for years. That ENDS in January. On screen `the brush game changes in january` (picked)
+3. Every single day right now is for ONE thing. The brushes. On screen `every day right now is for the brushes`
+4. No team, no investors, no sponsor. Just me and a day like this. On screen `no team. no investors. just this.`
+5. The biggest drop in wave history is getting built between a pharmacy shift and midnight. On screen `built between a shift and midnight`
+6. Eight weeks till the wave game changes. This is what one day of it looks like. On screen `8 weeks out`
+
+Rejected: "The greatest brushes in waves start like this." JR: it does not sound like a tough hook. It describes instead of hitting. Lesson for the Voice log, opens on this account need a fight, a stake or a cost in the first five words, not a frame.
 
 ## Still needs from JR
 The swirl line, and where the orders are going.
 
 ## After it posts
-`node tools/post.mjs add --hook "The greatest brushes in waves start like this" --format "DITL voiceover" --views N --watch S --completion C --result win --lesson "..."`
+`node tools/post.mjs add --hook "One brand's had the brush game to themselves for years" --format "DITL voiceover" --views N --watch S --completion C --result win --lesson "..."`
