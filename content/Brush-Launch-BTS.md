@@ -19,6 +19,10 @@ Default is no name. Saying the name is harder still and is JR's call, never the 
 ## On screen, first 5 seconds only, both cuts
 `the brush game changes in january`
 
+JR's line, 2026-11-02: "the brush game changes in january, the waveplugs sovereign reign". Spoken in the close as the bookend. If he wants it on screen too, stack it as two short lines:
+`the brush game changes in january`
+`the wave plug's sovereign reign`
+
 ---
 
 ## THE LONG CUT, about 80 seconds
@@ -38,7 +42,7 @@ About 240 words. Read slow, let the footage breathe.
 >
 > Tomorrow's orders. Starter Packs mostly. Tape, label, by the door.
 >
-> Then I do it all again, and I can't wait. January, the brush game changes. Follow so you're there when it does. I love to be me. And as always, stay wavy man.
+> Then I do it all again, and I can't wait. January, the brush game changes, and the Wave Plug's sovereign reign begins. Follow so you're there for it. I love to be me. And as always, stay wavy man.
 
 **Timings:** open 0 to 5 · orders 5 to 12 · pharmacy 12 to 20 · court 20 to 30 · lab 30 to 46 · waves 46 to 64 · pack 64 to 68 · close 68 to 82.
 **To land it at 70:** drop "This is what it takes", drop "Clears my head", drop the Starter Packs beat.
@@ -76,7 +80,7 @@ About 240 words. Read slow, let the footage breathe.
 >
 > Tomorrow's orders packed, lined up by the door.
 >
-> Then I do it all again, and I can't wait. January, the brush game changes. Follow so you're there. I love to be me. And as always, stay wavy man.
+> Then I do it all again, and I can't wait. January, the brush game changes. The Wave Plug's sovereign reign. Follow so you're there. I love to be me. And as always, stay wavy man.
 
 ---
 
@@ -84,7 +88,7 @@ About 240 words. Read slow, let the footage breathe.
 Own voice, with a soft bed low underneath. The niche's proven register is smooth R&B and slowed soul, so from the bench, "Love Me" by JMSN or a slowed atmospheric track. Scout can make a proper pick given the film date.
 
 ## Caption, both cuts
-`one brand's had the brush game to themselves for years. that ends in january. up at 8, orders out, pharmacy till 2, shots up before dark, make, brush, pack, repeat. i love to be me. follow so you're there #360waves #wavecheck #4cwaves #dayinthelife`
+`one brand's had the brush game to themselves for years. that ends in january. the wave plug's sovereign reign. up at 8, orders out, pharmacy till 2, shots up before dark, make, brush, pack, repeat. i love to be me. follow so you're there #360waves #wavecheck #4cwaves #dayinthelife`
 
 ## Hook bank, the other options offered 2026-11-02
 Kept for the next BTS episode. JR's punch word in caps.
