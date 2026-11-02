@@ -1,13 +1,17 @@
 # Brush Launch, Behind the Scenes
-_Romanticised day in the life for the January 2027 brush launch · By The Voice for JR · drafted 2026-11-02 · voiceover led · two cuts, 80s and 50s_
+_Romanticised day in the life for the January 2027 brush launch · By The Voice for JR · drafted 2026-11-02, corrected by JR same day · voiceover led · two cuts, 80s and 50s_
 
 ## The day, in JR's words
-Up at 8, drop off orders, pharmacy till 2, get a couple of shots up before it gets dark, come back, make more products, brush, pack the orders, get ready to do it all again. "I love my life."
+Up at 8, drop off orders, pharmacy till 2, shots up before it gets dark (basketball, his stress reliever), come back, make more products, brush, pack the orders, get ready to do it all again. "I love my life." "I love to be me."
 
-## The read
-Real, yes. Wave thread, the brushes run through the whole day and the evening brush is the wave beat. Stake, this is what building the greatest brushes in waves actually looks like, and nobody sees it. Lane, sales voiceover, slow and cinematic, the romanticise your life format. Product, the brushes, teased, never shown in full. Register is grateful and calm, not tired. The exclusivity is in the pace and the light, never in the words.
+## JR's corrections, 2026-11-02, now in the brand brain
+- "Shots up" means basketball, never filming. It is his stress reliever and part of the philosophy: all grind should be playful, it is where the creativity comes from.
+- Say "18", never "Year 12". Americans do not know what Year 12 is. He is 25 now.
+- Never frame his day as boring. He is enthusiastic. "I love to be me."
+- Canon addition, his words: products that soften the hair make the brush more efficient.
+- Opens need a fight, a stake or a cost in the first five words. "Start like this" describes, it does not hit.
 
-## The hook (JR picked this one, 2026-11-02)
+## The hook (JR picked this one)
 > One brand's had the brush game to themselves for years. That ENDS in January.
 
 Default is no name. Saying the name is harder still and is JR's call, never the agent's. The caps word is the punch.
@@ -17,27 +21,28 @@ Default is no name. Saying the name is harder still and is JR's call, never the 
 
 ---
 
-## THE LONG CUT, about 80 seconds, the in depth one
-About 245 words. Every beat carries a why. Micro hook into the next beat at the end of each one.
+## THE LONG CUT, about 80 seconds
+About 240 words. Read slow, let the footage breathe.
 
-> **0 to 5s, open.** One brand's had the brush game to themselves for years. That ENDS in January. This is what it takes.
+> One brand's had the brush game to themselves for years. That ENDS in January. This is what it takes.
 >
-> **5 to 12s, orders out.** Up at eight. Orders by the door from last night, every one packed by me, couple going to the States. Get them off before the day starts.
+> Up at eight. Orders by the door from last night, every one packed by me, couple going to the States. Get them off before the day starts.
 >
-> **12 to 22s, the pharmacy.** Then the pharmacy till two. Not where I want to be forever, but right now every shift goes straight into the launch, so I show up and do it properly.
+> Then the pharmacy till two. Every shift right now goes straight into the launch, so I show up and do it properly.
 >
-> **22 to 36s, the shoot.** Two o'clock, out to get shots up while there's still light. These are for the launch. The bristles on these are my exact spec, took a long time to get right. Colours you've never seen on a brush. January. Not before.
+> Two o'clock, straight to the court, shots up before it gets dark. Clears my head. The grind's got to stay playful, that's where the ideas come from.
 >
-> **36 to 50s, the lab.** Back home, the kitchen turns into the lab. Butter and pomade, by hand. Murumuru, the reason 4c hair can hold a wave. Most products sit on top of 4c. This sinks in and softens it, soft hair moulds, hair that moulds holds a wave.
+> Back home, the kitchen turns into the lab. Butter and pomade, by hand. Murumuru, the reason 4c hair can hold a wave. Most products sit on top of 4c. This sinks in and softens it, soft hair moulds, hair that moulds holds a wave, and softer hair makes the brush way more efficient.
 >
-> **50 to 63s, my own waves.** Then my own waves. Had them since Year 12, 4c, thin, trash for years, and the fix was the brush and the products, nothing else. [swirl line]. Every night, no exceptions.
+> Then my own waves. Had them since I was eighteen, seven years now, 4c, thin, trash for years, and the fix was the brush and the products, nothing else. [swirl line]. Every night, no exceptions. And the brush in my hand in January, bristles my exact spec, colours you've never seen on a brush. Not yet though.
 >
-> **63 to 67s, pack.** Tomorrow's orders. Starter Packs mostly. Tape, label, by the door.
+> Tomorrow's orders. Starter Packs mostly. Tape, label, by the door.
 >
-> **67 to 82s, close.** Then I do it all again. Most of it's boring if I'm honest, and I wouldn't swap it. January, the brush game changes. Follow so you're there when it does. I love my life. And as always, stay wavy man.
+> Then I do it all again, and I can't wait. January, the brush game changes. Follow so you're there when it does. I love to be me. And as always, stay wavy man.
 
-**To land it at 70:** drop "This is what it takes", drop the Year 12 line, drop "Most of it's boring if I'm honest, and I wouldn't swap it".
-**To push it to 100:** do not add words. Hold the kitchen shot and the mirror shot longer and let the sound carry them.
+**Timings:** open 0 to 5 · orders 5 to 12 · pharmacy 12 to 20 · court 20 to 30 · lab 30 to 46 · waves 46 to 64 · pack 64 to 68 · close 68 to 82.
+**To land it at 70:** drop "This is what it takes", drop "Clears my head", drop the Starter Packs beat.
+**To push it to 100:** do not add words. Hold the court shot and the mirror shot longer and let the sound carry them.
 **Swap in the real detail:** where the orders are actually going, and the real swirl line.
 
 ## Shots for the long cut, slow and steady, two to five seconds each, natural light
@@ -46,31 +51,32 @@ About 245 words. Every beat carries a why. Micro hook into the next beat at the 
 3. The drop off, from outside. Bag in, walk out.
 4. Pharmacy from outside only, or the lanyard going on in the car. Never inside.
 5. Two o'clock walk out, the light already low.
-6. The shoot. Hands, tripod, golden light. Brushes out of focus or in silhouette only. No colours, no bristles, until the drop. The "January. Not before." line lands on a shot that nearly shows them and does not.
+6. The court. Ball in hand, a shot going in, low sun. Let it be playful, a smile, a miss, a make. This is the beat that shows the philosophy without saying it twice.
 7. Kitchen. Whipping, the butter texture up close, jars filling, labels on. This is the shot to hold if the cut needs stretching.
-8. The Year 12 line. If there is an old photo of the early waves, flash it here for one second. The before is the strongest frame in the whole video.
+8. The eighteen line. If there is an old photo of the early waves, flash it here for one second. The before is the strongest frame in the whole video.
 9. The mirror. Brush in hand, the crown, the longest held shot, the swirl line sits over it.
-10. Tape, label, box, by the door.
-11. Boxes lined up, light off. Cut to black on the closer.
+10. "Not yet though" lands on a frame that nearly shows the new brushes and does not. Silhouette or out of focus. No colours, no bristles, until the drop.
+11. Tape, label, box, by the door.
+12. Boxes lined up, light off. Cut to black on the closer.
 
 ---
 
 ## THE SHORT CUT, about 50 seconds
-> **0 to 4s** One brand's had the brush game to themselves for years. That ENDS in January.
+> One brand's had the brush game to themselves for years. That ENDS in January.
 >
-> **4 to 10s** Up at eight. Orders by the door from last night, first job is dropping them off.
+> Up at eight. Orders by the door from last night, first job is dropping them off.
 >
-> **10 to 18s** Then the pharmacy till two. It's paying for the launch right now, so I show up and do it properly.
+> Then the pharmacy till two. Every shift right now goes straight into the launch, so I show up and do it properly.
 >
-> **18 to 27s** Two o'clock, straight out to get shots up while there's still light. November, you get about two hours of it, you don't waste one.
+> Two o'clock, straight to the court, shots up before it gets dark. The grind's got to stay playful.
 >
-> **27 to 35s** Back home, the kitchen turns into the lab. Butter, pomade, by hand, same as the first jar.
+> Back home, the kitchen turns into the lab. Butter, pomade, by hand. Murumuru, softens the hair so the brush does more.
 >
-> **35 to 42s** Then my own waves. [swirl line]. The part that started all of this.
+> Then my own waves. [swirl line]. Every night, no exceptions.
 >
-> **42 to 46s** Tomorrow's orders packed, lined up by the door.
+> Tomorrow's orders packed, lined up by the door.
 >
-> **46 to 52s** Then I get ready to do it all again. January, the brush game changes. Follow so you're there. I love my life. And as always, stay wavy man.
+> Then I do it all again, and I can't wait. January, the brush game changes. Follow so you're there. I love to be me. And as always, stay wavy man.
 
 ---
 
@@ -78,10 +84,7 @@ About 245 words. Every beat carries a why. Micro hook into the next beat at the 
 Own voice, with a soft bed low underneath. The niche's proven register is smooth R&B and slowed soul, so from the bench, "Love Me" by JMSN or a slowed atmospheric track. Scout can make a proper pick given the film date.
 
 ## Caption, both cuts
-`one brand's had the brush game to themselves for years. that ends in january. up at 8, orders out, pharmacy till 2, shots before dark, make, brush, pack, repeat. i love my life. follow so you're there #360waves #wavecheck #4cwaves #dayinthelife`
-
-## Canon check
-Every hair claim is from the WAVE KNOWLEDGE section of the brand brain. Murumuru absorbs and softens, soft hair moulds, hair that moulds holds a wave. The brush claims are from the big play section, bristles to JR's spec and colours no other brush has. Nothing about where they come from.
+`one brand's had the brush game to themselves for years. that ends in january. up at 8, orders out, pharmacy till 2, shots up before dark, make, brush, pack, repeat. i love to be me. follow so you're there #360waves #wavecheck #4cwaves #dayinthelife`
 
 ## Hook bank, the other options offered 2026-11-02
 Kept for the next BTS episode. JR's punch word in caps.
@@ -92,7 +95,10 @@ Kept for the next BTS episode. JR's punch word in caps.
 5. The biggest drop in wave history is getting built between a pharmacy shift and midnight. On screen `built between a shift and midnight`
 6. Eight weeks till the wave game changes. This is what one day of it looks like. On screen `8 weeks out`
 
-Rejected: "The greatest brushes in waves start like this." JR: it does not sound like a tough hook. It describes instead of hitting. Lesson for the Voice log, opens on this account need a fight, a stake or a cost in the first five words, not a frame.
+Rejected: "The greatest brushes in waves start like this." JR: it does not sound like a tough hook. It describes instead of hitting.
+
+## Canon check
+Every hair claim is from the WAVE KNOWLEDGE section of the brand brain, including the 02/11/2026 addition that softer hair makes the brush more efficient. The brush claims are from the big play section, bristles to JR's spec and colours no other brush has. Nothing about where they come from.
 
 ## Still needs from JR
 The swirl line, and where the orders are going.

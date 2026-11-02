@@ -11,7 +11,7 @@ This is the single source of truth about Paul and The Wave Plug. Every agent rea
 **Paul Oni Jr, 25, London UK.** Known online as **JR The Wave Plug**.
 - Handles: **@jnr.certi** (TikTok, ~190k followers, 4 years in, solid loyal fanbase) · **@jnrstillwavyy** (Instagram).
 - Day job: **pharmacist ~3 days/week (9 to 6)**, his main income but he doesn't enjoy it and it eats his days. The Wave Plug is the escape plan.
-- Off the clock: chill guy, into waves, gym, and basketball.
+- Off the clock: chill guy, into waves, gym, and basketball. **"Shots up" means basketball**, never filming. It is his stress reliever and part of how he works: **all grind should be playful, that is where the creativity comes from** (JR, 02/11/2026).
 
 **His wave story (this IS the brand):** Had waves since Year 12 when waves were THE hairstyle. Started with 4C hair that was extremely thin, his waves were "trash." Figured out it came down to the right brush and the right products, then built some of the best waves out there. Been waving ever since. That personal journey, 4C struggle to elite waves, is the heart of everything.
 
@@ -76,6 +76,7 @@ Every agent writing content, email or scripts must get this right. JR corrected 
 - **Hair should NOT be damp when brushing.** Do not tell people to brush damp hair.
 - **The crown needs isolating** and more work than the rest of the head, or it won't connect.
 - **4C specific:** most wave advice is written for medium texture. On 4C the products sit on top instead of absorbing, which is why murumuru butter matters, it absorbs and softens, softer hair moulds, hair that moulds holds a wave.
+- **Products that soften the hair make the brush more efficient.** The butter and the brush are one system, not two products (JR, 02/11/2026).
 
 If unsure about any technique claim, ask JR rather than guessing. Wrong wave advice damages the brand's core credibility.
 
@@ -120,6 +121,8 @@ Note: it says **all wavers**, not just 4C. JR's personal story starts with 4C an
 - **North star tone:** Tribe of Vi.
 - **Hard rule: never sound AI.** No corporate polish, no stiff phrasing. Real, warm, confident, culturally fluent.
 - No banned words or forced slang, keep it natural to how Paul actually speaks.
+- **Never frame his day or his grind as boring.** He is enthusiastic about it. "I love my life." "I love to be me." (JR, 02/11/2026)
+- **Say "18", never "Year 12".** The audience is American and does not know what Year 12 is. He is 25 now, so the waves are seven years in. (JR, 02/11/2026)
 
 ---
 
