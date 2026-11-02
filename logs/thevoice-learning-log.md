@@ -24,6 +24,7 @@ This is The Voice agent's memory. It reads this first every run and writes back 
 | 2026-11-02 | Honest grind framing allowed "boring" | Never frame the grind as boring. Enthusiastic, "I love to be me". The grind is playful, that is where the ideas come from | JR direct, same session. "Shots up" means basketball, his stress reliever |
 | 2026-11-02 | Open may frame the video ("X starts like this") | Open needs a fight, a stake or a cost in the first five words. JR picked "One brand's had the brush game to themselves for years. That ENDS in January" over five others | JR rejected "The greatest brushes in waves start like this" as not a tough hook |
 | 2026-11-02 | Murumuru line ends at "hair that moulds holds a wave" | Use JR's exact line: murumuru butter penetrates the hair shaft and softens hair, easier to brush and maintain, progress in your waves more efficiently. Butter and brush are one system | JR's own words, verbatim in the brand brain WAVE KNOWLEDGE |
+| 2026-11-02 | Ask "how's the swirl coming?" before every DITL script | Retired. JR scalped, the beehive to swirl series is void. Wave beat stays mandatory, no swirl update. Next live journey is the January brush launch | JR direct, same session. Closed in content/CLAUDE.md, MEMORY.md, both engines and the BTS file |
 
 ## Weekly Reviews
 | Date | Posts | Hit rate | Wrong calls | Changes proposed/approved |

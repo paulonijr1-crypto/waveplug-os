@@ -7,7 +7,7 @@ Content is not something you go looking for. It is what you already did today, r
 ## The two tests
 A moment only has to pass two tests before it counts.
 1. **Is it real?** It happened or it is happening. A fact from your day, not an idea for a video.
-2. **Is there a wave thread?** Either waves are the subject, or waves ride along. Durag on, brush in the bag, the swirl update, the brushes in your hand. If there is no thread, do not force one. Make it a story post and let the follow be the CTA.
+2. **Is there a wave thread?** Either waves are the subject, or waves ride along. Durag on, brush in the bag, the brushes in your hand. If there is no thread, do not force one. Make it a story post and let the follow be the CTA.
 
 Pass both and it is content. Everything below is just the conversion.
 
@@ -50,7 +50,7 @@ This is the part that makes it "anything". Every row is something that already h
 | A customer email or review (first name only, ask them first) | Social proof | Sales (voiceover) | The product they named | Read the line that hit you |
 | A mistake or a bad day | Mistakes | Sales (voiceover) | The fix | The mistake, stated plainly, no excuse |
 | Something wrong you saw another creator say | Myth busting | Sales (talking) | The right tool | "Don't do this." Then the correction, from the canon only |
-| The swirl journey, any stage | Transformation | Reach (wash and style) | Butter, hard brush | Where the pattern is this week |
+| A live journey, any stage (the swirl series ended 02/11/2026, JR scalped, next is the January brushes) | Transformation | Reach (wash and style) | Butter, hard brush | Where the journey is this week |
 | A before and after, yours or a customer's | Transformation | Reach (wash and style) | Starter Pack | The time span. "Nine weeks." |
 | The new brushes, in hand | Product in use | Both, every video | Brushes, Butter, Pomade | Do not announce them. Just use them. Let people ask |
 | A question you got asked in person | Education | Sales (voiceover) | Whatever answers it | The question, in their words |
@@ -94,7 +94,7 @@ On screen: `the crown finally connected`
 Voiceover: one line only, on the drop, as the crown comes into frame. Use the real number of weeks.
 > [Nine] weeks of isolating the crown. No scalping.
 
-Caption: `[nine] weeks. the crown was the last bit to connect and it needed more work than the rest of my head put together. swirl series continues #360waves #wavecheck #4cwaves`
+Caption: `[nine] weeks. the crown was the last bit to connect and it needed more work than the rest of my head put together. journey continues #360waves #wavecheck #4cwaves`
 
 ### 4. "Saw a big creator telling people to brush damp hair"
 Lane: sales, talking or voiceover over hands and hair. Product: the brushes. Film: brushing, dry, each brush in hand as it is named.
@@ -136,4 +136,4 @@ Type the raw line, nothing more.
 > "crown connected"
 > "saw someone say brush it damp"
 
-The Voice runs the five questions, picks the lane, and returns the script, the on screen hook, the caption and the reveal point. If it needs one thing from you it asks one question, usually "how's the swirl coming?" or "which product was in the box?"
+The Voice runs the five questions, picks the lane, and returns the script, the on screen hook, the caption and the reveal point. If it needs one thing from you it asks one question, usually "which product was in the box?" or "where is it going?"

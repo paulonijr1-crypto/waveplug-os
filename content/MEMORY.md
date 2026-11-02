@@ -64,10 +64,10 @@ _(best times/days, cadence that held quality)_
 
 ## 🧪 Live experiments
 _(what we're currently testing → result)_
-- **Live series:** 360 beehive → 360 swirl pattern shift ("without scalping"). Crown shifted, rest pending, crown not yet elite. Document each stage = journey content.
+- **ENDED 02/11/2026:** the 360 beehive to 360 swirl pattern shift ("without scalping"). JR scalped, series void. Next journey series is the January brush launch, `Brush-Launch-BTS.md`.
 - **DECISION 2026-08-02:** JR prefers **voiceover** as his go-to storytelling format (chose it for the 14 Days to Miami series). Default to voiceover-led scripts for connection/sales content; keep a quiet trending sound under the voice to retain reach.
 - **STYLE RULES 2026-08-02 (from JR feedback):** (1) Never use the word **"aura."** (2) Never state exclusivity outright ("you won't see this anywhere else") — the ENERGY must give it off, not the words. Show, don't tell.
-- **STYLE RULES 2026-08-02 (more JR feedback):** (3) On-screen text = **MINIMAL but scroll-stopping**: short/calm/lowercase/premium. NOT dead labels, but ALSO not clickbait — JR finds "POV", emoji-spam and forced tension ("she wasn't ready") cringe/off-brand. Test every line: "would someone read this and actually stop to watch?" (4) Weave the **360 swirl journey** into daily content; the agent ASKS "how's the swirl coming?" before writing each day's script and centres the wave beat on the reply. (5) Script voice/energy is landing well — keep it.
+- **STYLE RULES 2026-08-02 (more JR feedback):** (3) On-screen text = **MINIMAL but scroll-stopping**: short/calm/lowercase/premium. NOT dead labels, but ALSO not clickbait — JR finds "POV", emoji-spam and forced tension ("she wasn't ready") cringe/off-brand. Test every line: "would someone read this and actually stop to watch?" (4) RETIRED 02/11/2026, the swirl question. JR scalped. The wave beat stays, the swirl update does not. (5) Script voice/energy is landing well — keep it.
 - **To test:** raising on-camera energy vs. natural calm/low-key — see which converts.
 
 ---

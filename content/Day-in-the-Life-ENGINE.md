@@ -7,7 +7,7 @@ JR just drops the day's plan in one line. The agent returns a ready-to-record **
 **What JR tells the agent:**
 > "Today: [main thing/destination] · Stops: [e.g. food halfway, shops] · Gym? [yes = which Miami day / no] · Highlights: [anything special — restaurant, moment, who's there] · Names: [food spot / restaurant if known]"
 
-**Then the agent ALWAYS asks one question back: "How's the swirl coming today?"** (JR's live 360 beehive → swirl pattern-shift journey). Whatever JR replies — e.g. "crown's connected, back's still behind" — gets woven into that day's script as a running thread. The swirl journey is part of the daily wave beat, so every day is also a chapter of the transformation. Everything else is engineered below.
+**Swirl check RETIRED 02/11/2026.** JR scalped, the beehive to swirl series is void, so the agent no longer asks "how's the swirl coming?". The wave beat below stays mandatory. If a new live journey starts (the January brushes are the obvious one) the question comes back, pointed at that. Everything else is engineered below.
 
 ---
 
@@ -15,7 +15,7 @@ JR just drops the day's plan in one line. The agent returns a ready-to-record **
 Always this shape:
 
 1. **Cold-open hook (0–3s)** — front-load the single most eye-catching moment of the whole day (or a bold tease of it). Never open on the boring start. On-screen text hits immediately.
-2. **Wave beat + SWIRL update — MANDATORY every day** — a quick wave moment early (morning brush, durag on, "waves don't take days off") AND a line on how the 360 swirl is coming, based on JR's swirl-check reply. This is both the daily Wave Plug integration and an ongoing chapter of the pattern-shift series. Keep it natural; soft product nod only where it fits.
+2. **Wave beat, MANDATORY every day.** A quick wave moment early (morning brush, durag on, "waves don't take days off"). Until January this is also where the brush tease sits. Keep it natural, soft product nod only where it fits. The swirl update that used to live here was retired 02/11/2026, JR scalped.
 3. **Segment chain (3–5 beats)** — the actual day: travel → food stop → arrival/gym → evening. **End every segment with a micro-hook to the next** ("but the best bit came later," "then it got mad") so the 50–70s holds.
 4. **Gym / Miami-series tie-in** — if there's a gym that day, fold in the workout as the series continuing ("even on holiday, prep doesn't stop — day X"). Ties the two series together.
 5. **Exclusivity through ENERGY, not words** — never state it outright ("you won't get this anywhere else"). The confidence, quality and pace MAKE them feel it's one-of-one. Show, don't tell. ("This is how the plug moves" is fine — it's attitude, not a claim.)

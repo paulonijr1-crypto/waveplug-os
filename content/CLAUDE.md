@@ -7,11 +7,11 @@
 
 ## ⚡ Day-in-the-Life engine (on-demand)
 JR can just say the day's plan in one line and the agent returns a ready-to-record **50–70s voiceover DITL script**. Full system in `Day-in-the-Life-ENGINE.md`. Defaults: waves woven in EVERY day, fold in the gym/Miami series when there's a gym, energy + exclusivity ("only here") always on. Active trip files (e.g. `Manchester-Trip.md`) hold the day-by-day scripts.
-- **Swirl-check feature:** before writing any day's script, ASK JR "how's the swirl coming today?" and centre that day's wave beat on his reply (the 360 beehive → swirl journey is a daily thread).
+- **Swirl check RETIRED 02/11/2026.** JR scalped, so the beehive to swirl series is void. The daily wave beat stays mandatory, there is just no swirl update to ask for. Do not ask "how's the swirl coming?"
 - **On-screen text = HOOK ONLY (first ~5s), none after.** JR wants on-screen text only for the opening hook; VO + visuals carry the rest. Minimal, calm, premium, passes "would they stop and watch?" — never clickbait/POV/labels. See the engine framework.
 
 ## ⚡ Anything into Content engine (on-demand)
-The general version of the DITL engine. JR drops one real line about anything (a comment, a customer, an order, a batch of butter, a mistake, a stage of the swirl) and the agent runs the five question converter in `Anything-Into-Content-ENGINE.md`, picks the lane (wash and style for reach, voiceover for sales, long form to The Professor), and returns the script, the on screen hook, the caption and the reveal point. Two tests gate everything: is it real, and is there a wave thread.
+The general version of the DITL engine. JR drops one real line about anything (a comment, a customer, an order, a batch of butter, a mistake, a stage of a journey) and the agent runs the five question converter in `Anything-Into-Content-ENGINE.md`, picks the lane (wash and style for reach, voiceover for sales, long form to The Professor), and returns the script, the on screen hook, the caption and the reveal point. Two tests gate everything: is it real, and is there a wave thread.
 
 ## What this agent does
 Turns JR's posting from "post and hope" into a system that drives sales, across **TikTok (@jnr.certi, ~190k)**, **Instagram (@jnrstillwavyy)**, and **YouTube**. Four jobs:
@@ -60,7 +60,7 @@ Default mix (from skill): 40% education, 25% product demos, 20% proof/transforma
 - **Bridge opportunity:** voiceover lets JR get the sales-driving power of "talking" content while sidestepping his discomfort on camera. Push this format.
 
 ## Series & recurring ideas
-- **Live series (running now): "Switching my ENTIRE pattern without scalping" — 360 beehive → 360 swirl.** Status: crown has shifted, rest of the pattern hasn't, crown not yet elite. This is a built-in ongoing narrative — each stage is content, and it maps directly onto JR's dream of the audience "witnessing his journey to greatness." Blend talking/voiceover into this series to marry reach with sales.
+- **ENDED 02/11/2026: "Switching my ENTIRE pattern without scalping" (360 beehive to 360 swirl).** JR scalped, so the series is void. Do not reference it in new scripts. The journey format itself still works, each stage is content and the audience witnesses the journey. The next live series is the January brush launch, see `Brush-Launch-BTS.md`.
 
 ## Launch calendar
 - 🔒 **October: Torino-rival brushes.** JR's launch plan:

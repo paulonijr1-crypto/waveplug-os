@@ -38,7 +38,7 @@ About 240 words. Read slow, let the footage breathe.
 >
 > Back home, the kitchen turns into the lab. Butter and pomade, by hand. My butter contains murumuru butter, known for its ability to penetrate the hair shaft and soften the hair, which makes it easier to brush and easier to maintain. All of that lets you make progress in your waves way more efficiently.
 >
-> Then my own waves. Had them since I was eighteen, seven years now, 4c, thin, trash for years, and the fix was the brush and the products, nothing else. [swirl line]. Every night, no exceptions. And the brush in my hand in January, bristles my exact spec, colours you've never seen on a brush. Not yet though.
+> Then my own waves. Had them since I was eighteen, seven years now, 4c, thin, trash for years, and the fix was the brush and the products, nothing else. Every night, no exceptions. And the brush in my hand in January, bristles my exact spec, colours you've never seen on a brush. Not yet though.
 >
 > Tomorrow's orders. Starter Packs mostly. Tape, label, by the door.
 >
@@ -47,7 +47,7 @@ About 240 words. Read slow, let the footage breathe.
 **Timings:** open 0 to 5 · orders 5 to 12 · pharmacy 12 to 20 · court 20 to 30 · lab 30 to 46 · waves 46 to 64 · pack 64 to 68 · close 68 to 82.
 **To land it at 70:** drop "This is what it takes", drop "Clears my head", drop the Starter Packs beat.
 **To push it to 100:** do not add words. Hold the court shot and the mirror shot longer and let the sound carry them.
-**Swap in the real detail:** where the orders are actually going, and the real swirl line.
+**Swap in the real detail:** where the orders are actually going.
 
 ## Shots for the long cut, slow and steady, two to five seconds each, natural light
 1. Curtains or the alarm at eight. Hook text sits here and nowhere else.
@@ -58,7 +58,7 @@ About 240 words. Read slow, let the footage breathe.
 6. The court. Ball in hand, a shot going in, low sun. Let it be playful, a smile, a miss, a make. This is the beat that shows the philosophy without saying it twice.
 7. Kitchen. Whipping, the butter texture up close, jars filling, labels on. This is the shot to hold if the cut needs stretching.
 8. The eighteen line. If there is an old photo of the early waves, flash it here for one second. The before is the strongest frame in the whole video.
-9. The mirror. Brush in hand, the crown, the longest held shot, the swirl line sits over it.
+9. The mirror. Brush in hand, the crown, the longest held shot.
 10. "Not yet though" lands on a frame that nearly shows the new brushes and does not. Silhouette or out of focus. No colours, no bristles, until the drop.
 11. Tape, label, box, by the door.
 12. Boxes lined up, light off. Cut to black on the closer.
@@ -76,7 +76,7 @@ About 240 words. Read slow, let the footage breathe.
 >
 > Back home, the kitchen turns into the lab. Butter, pomade, by hand. My butter contains murumuru butter, it penetrates the hair shaft and softens the hair, so it's easier to brush and easier to maintain.
 >
-> Then my own waves. [swirl line]. Every night, no exceptions.
+> Then my own waves. Every night, no exceptions.
 >
 > Tomorrow's orders packed, lined up by the door.
 >
@@ -105,7 +105,7 @@ Rejected: "The greatest brushes in waves start like this." JR: it does not sound
 Every hair claim is from the WAVE KNOWLEDGE section of the brand brain, including the 02/11/2026 murumuru line in JR's own words. The brush claims are from the big play section, bristles to JR's spec and colours no other brush has. Nothing about where they come from.
 
 ## Still needs from JR
-The swirl line, and where the orders are going.
+Where the orders are going. (Swirl line dropped 02/11/2026, JR scalped, that series is void.)
 
 ## After it posts
 `node tools/post.mjs add --hook "One brand's had the brush game to themselves for years" --format "DITL voiceover" --views N --watch S --completion C --result win --lesson "..."`
