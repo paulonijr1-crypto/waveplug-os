@@ -79,3 +79,37 @@ If you feel like you've got to impress your hometown, take this from me. Don't p
 Anyways, watch this space. WavePlug on top. Preciate you man for watching, and as always, stay wavy man.
 
 If it still runs over 80s spoken, the showroom paragraph goes first. On screen text and captions as above.
+
+---
+
+## Part two: he bought the CLA (10/11/2026)
+
+JR ended up buying the CLA about two weeks after filming the Mazda video. B-roll already shot. The honesty is the content. If the Mazda video never posted, post it first as filmed and this two days later (the gap is the cliffhanger). If it did post, this is the sequel.
+
+Angles: (1) the confession, (2) "I don't have to choose" (her 2M "wrap it up" video in reverse), (3) the maths changed, only if true, (4) "did I fold or did I level up", hand them the verdict. Whichever angle, answer "what about the fifty grand" inside the video or the Mazda video's trust is gone.
+
+### Script, about 50 seconds, brackets are JR's truth only
+*(Mazda footage, hard cut to the CLA)* Two weeks ago I made a whole video about discipline. Then I bought the car.
+
+*(JR in the CLA)* I told you look lit now or look lit for life, and I meant it. I drove that Mazda for [N] days. [the honest reason: what it felt like, what broke, what the numbers did].
+
+*(brush samples, notes app)* So let me answer the question before you ask it. The brush money is [untouched / separate / exactly where it was]. January hasn't moved. The pharmacy hasn't moved. I still need fifty grand and I'm still not asking anyone for it.
+
+*(the CLA, the keys)* What changed is I stopped pretending the car was the thing standing between me and the plan. It wasn't. The work is. [one line on what changes, extra shifts, whatever is true].
+
+*(mirror, the hair)* Same as the hair. Day [N] of growing it back. I don't have to look rough to prove I'm serious. I have to show up.
+
+Did I fold or did I level up? Be honest in the comments.
+
+Anyways, watch this space. WavePlug on top. Preciate you man for watching, and as always, stay wavy man.
+
+### On screen (first 5s)
+`made a video about discipline. bought the car anyway.`
+
+### Captions
+- i don't have to choose. the brushes are still coming in january. so is the car.
+- two weeks ago: look lit for life. today: lol.
+- did I fold or did I level up. genuinely asking.
+
+### The one shot to have
+Mazda and CLA in the same frame, or back to back in the same spot.
