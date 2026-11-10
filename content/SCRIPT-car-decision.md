@@ -119,3 +119,12 @@ Called it a day. Anyways, watch this space. WavePlug on top. Preciate you man fo
 
 ### Notes
 The optional Mazda line is the only mention of the January brushes in the video. Say it if true. "I'm not gonna act calm about this one" lets JR be loud without breaking the calm on camera voice.
+
+### On screen text options (first 5s only, lowercase, none repeat the spoken opener)
+Curiosity: "went hooping. came home in a mercedes." · "started the day on the court. ended it in a cla 250e." · "collection day. don't act calm."
+The orders: "your orders rode home in a mercedes today." · "the merc's first trip was the post office." · "new car. same job. parcels went out the same day."
+The arc: "4 years of waves from a bedroom bought this." · "trash waves in year 12. mercedes at 25." · "a pharmacy counter and a wave brush paid for this car." · "they said waves were a phase. collection day."
+Receipts: "grey cla 250e. paid for by waves and 9 to 6s." · "200k of you. 1 mercedes. 0 days off."
+Gratitude: "you lot bought this. let me show you." · "god's grace and you man. that's the whole story."
+Rule breaker: "LOOK at this bad boy."
+Top three: hooping line (gap, spoken line pays it off), orders line (brand does the stopping), year 12 line (for the kid where JR was). First frame must be the car or the parcels going into the boot.
