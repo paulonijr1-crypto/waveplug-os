@@ -82,34 +82,40 @@ If it still runs over 80s spoken, the showroom paragraph goes first. On screen t
 
 ---
 
-## Part two: he bought the CLA (10/11/2026)
+## What actually happened (10/11/2026)
 
-JR ended up buying the CLA about two weeks after filming the Mazda video. B-roll already shot. The honesty is the content. If the Mazda video never posted, post it first as filmed and this two days later (the gap is the cliffhanger). If it did post, this is the sequel.
+The Mazda video above was never filmed. JR bought the grey CLA 250e. Collection day: hooping in the morning, dealership (looked crazy), ran into his boy by chance, numbers with the salesperson (test drive already done), the reveal, drove home, dropped off customer parcels the same day, interior at night. B-roll already shot. Line 2: the Mercedes' first job was delivering customer orders.
 
-Angles: (1) the confession, (2) "I don't have to choose" (her 2M "wrap it up" video in reverse), (3) the maths changed, only if true, (4) "did I fold or did I level up", hand them the verdict. Whichever angle, answer "what about the fifty grand" inside the video or the Mazda video's trust is gone.
+Justine parallel: "turns out it was never luck (it was legacy)", 960K. Openly proud before a big moment, naming where it came from. Pride lands when you say who got you there.
 
-### Script, about 50 seconds, brackets are JR's truth only
-*(Mazda footage, hard cut to the CLA)* Two weeks ago I made a whole video about discipline. Then I bought the car.
+### Script, about 75 seconds
+*(the CLA, then the parcels going in the boot)* I bought a Mercedes today. First job it had was dropping off your orders. Let me run you through the day.
 
-*(JR in the CLA)* I told you look lit now or look lit for life, and I meant it. I drove that Mazda for [N] days. [the honest reason: what it felt like, what broke, what the numbers did].
+*(court, the ball, one shot going in)* Started the morning hooping, because I was too gassed to sit still. Collection day.
 
-*(brush samples, notes app)* So let me answer the question before you ask it. The brush money is [untouched / separate / exactly where it was]. January hasn't moved. The pharmacy hasn't moved. I still need fifty grand and I'm still not asking anyone for it.
+*(dealership exterior, walking in)* Got to the dealership and the place looked crazy. Then I see my boy standing there, had no idea he'd be there, so now it's a whole occasion.
 
-*(the CLA, the keys)* What changed is I stopped pretending the car was the thing standing between me and the plan. It wasn't. The work is. [one line on what changes, extra shifts, whatever is true].
+*(salesperson's hands, the paperwork, no faces)* Test drive was already done, so this was just numbers. Sat down, talked it through, boom. Done.
 
-*(mirror, the hair)* Same as the hair. Day [N] of growing it back. I don't have to look rough to prove I'm serious. I have to show up.
+*(the reveal, slow walk round the car, interior)* LOOK at this bad boy. Grey CLA 250e. The interior is crazy, man. I'm not gonna act calm about this one. Four years of posting waves from my bedroom and a pharmacy counter three days a week. This is what that bought.
 
-Did I fold or did I level up? Be honest in the comments.
+[optional, only if true: I nearly settled for a 2016 Mazda to protect the brush money. Did the numbers properly, I can do both. Brushes still land in January.]
 
-Anyways, watch this space. WavePlug on top. Preciate you man for watching, and as always, stay wavy man.
+*(driving home, dashboard, the road)* Drove it home. And then straight back to work.
+
+*(parcels, the drop off counter, the receipt)* Same day, dropped your orders off. Doing what got me here and what's gonna take me further, by God's grace and you man.
+
+*(interior at night, ambient lights)* And look at the interior at night. Too crazy, man.
+
+Called it a day. Anyways, watch this space. WavePlug on top. Preciate you man for watching, and as always, stay wavy man.
 
 ### On screen (first 5s)
-`made a video about discipline. bought the car anyway.`
+`bought a merc. its first job was your orders.`
 
 ### Captions
-- i don't have to choose. the brushes are still coming in january. so is the car.
-- two weeks ago: look lit for life. today: lol.
-- did I fold or did I level up. genuinely asking.
+- first thing the merc did was deliver your orders. that's the brand in one sentence.
+- waves, a pharmacy counter and you man. that's what bought this. grey cla 250e.
+- mad proud of myself today and I'm not hiding it. back to work tomorrow.
 
-### The one shot to have
-Mazda and CLA in the same frame, or back to back in the same spot.
+### Notes
+The optional Mazda line is the only mention of the January brushes in the video. Say it if true. "I'm not gonna act calm about this one" lets JR be loud without breaking the calm on camera voice.

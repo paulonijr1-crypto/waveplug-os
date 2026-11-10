@@ -39,4 +39,5 @@ This is The Voice agent's memory. It reads this first every run and writes back 
 ## Drafts delivered (so a dry week is diagnosable)
 | Date | Draft | Format | Line 2 | Film date | File | Posted? |
 |---|---|---|---|---|---|---|
-| 2026-10-28 | The car decision, CLA to a 2016 Mazda. JR wrote it himself with the two line formula, Plug tightened 75s to 45s | Talking over dealership and Mazda b-roll, plus 3 cutdowns | "look lit now or look crazy lit in two years" | Footage exists (JR bought the car today) | `content/SCRIPT-car-decision.md` | pending, log with `node tools/post.mjs add` |
+| 2026-10-28 | The car decision, CLA to a 2016 Mazda. JR wrote it himself with the two line formula, Plug tightened 75s to 45s | Talking over dealership and Mazda b-roll, plus 3 cutdowns | "look lit now or look crazy lit in two years" | Not filmed. JR bought the CLA instead | `content/SCRIPT-car-decision.md` | superseded, see row below |
+| 2026-11-10 | Collection day vlog, grey CLA 250e. First job the car had was delivering customer orders | 75s vlog over b-roll JR already shot | "first thing the merc did was deliver your orders" | Footage shot 10/11 | `content/SCRIPT-car-decision.md` | pending, log with `node tools/post.mjs add` |
