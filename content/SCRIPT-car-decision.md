@@ -137,3 +137,11 @@ The day: "went hooping, bought the merc, dropped your orders off. normal tuesday
 Brush tease (only if true): "bought the merc. brush money untouched. january is still january." · "bought the merc and I can still fund the brushes. did the maths twice."
 Soft ask: "bought the merc. tell me what song I'm playing first." · "bought the merc. rate the interior out of 10."
 Top three: the orders line (brand), "you lot bought the merc" (community, fills comments), the song line (engagement). Hashtags max four: #360waves #wavecheck #cla250e #mercedes.
+
+### Captions, "new car" set
+new car: "new car. first thing it did was deliver your orders." · "new car, same job. parcels went out the same day." · "new car. not gonna act calm about this one." · "new car. year 12 me with the trash waves would not believe this." · "new car. god's grace and you man." · "new car. 200k of you did this. back to work tomorrow." · "new car and I'm still packing orders in it. that's the whole brand."
+got the car: "got the car. first trip was the post office." · "picked up the car today. your parcels were the first passengers." · "got the car. waves and 9 to 6s paid for it. keep brushing." · "finally got the car. still not elite though. day [N]."
+collection day: "collection day. went hooping first because I couldn't sit still." · "collection day. my boy was randomly there. whole occasion." · "collection day. grey cla 250e. look at it man."
+new whip: "new whip. first job was your orders." · "new whip, same 9 to 6. that's how it got bought."
+quiet: "the car changed. the work didn't." · "upgraded the car. kept the routine." · "drove home in something new. dropped off something you ordered. good day."
+Top three: the orders line, "the car changed. the work didn't.", and "finally got the car. still not elite though. day [N]." (ties the car to the comeback and keeps the day count running).
