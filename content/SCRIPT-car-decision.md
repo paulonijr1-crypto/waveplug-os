@@ -128,3 +128,12 @@ Receipts: "grey cla 250e. paid for by waves and 9 to 6s." · "200k of you. 1 mer
 Gratitude: "you lot bought this. let me show you." · "god's grace and you man. that's the whole story."
 Rule breaker: "LOOK at this bad boy."
 Top three: hooping line (gap, spoken line pays it off), orders line (brand does the stopping), year 12 line (for the kid where JR was). First frame must be the car or the parcels going into the boot.
+
+### Captions, "bought the merc" set
+Verdict: "bought the merc. first thing it did was deliver your orders." · "bought the merc. still packed your parcels the same day." · "bought the merc. not gonna act calm about this one." · "bought the merc. grey cla 250e. look at it man."
+Arc: "bought the merc with waves and 9 to 6s. year 12 me would not believe this." · "bought the merc. four years of posting from a bedroom, three days a week behind a counter. this is what that looks like." · "trash 4c waves in year 12. bought the merc at 25. keep brushing."
+Gratitude: "bought the merc. god's grace and you man. that's the whole story." · "you lot bought the merc, I just drove it home. preciate you." · "bought the merc. 200k of you did this. back to work tomorrow."
+The day: "went hooping, bought the merc, dropped your orders off. normal tuesday." · "bought the merc and my boy was randomly at the dealership. whole occasion."
+Brush tease (only if true): "bought the merc. brush money untouched. january is still january." · "bought the merc and I can still fund the brushes. did the maths twice."
+Soft ask: "bought the merc. tell me what song I'm playing first." · "bought the merc. rate the interior out of 10."
+Top three: the orders line (brand), "you lot bought the merc" (community, fills comments), the song line (engagement). Hashtags max four: #360waves #wavecheck #cla250e #mercedes.
