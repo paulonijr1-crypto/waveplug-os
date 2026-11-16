@@ -9,6 +9,53 @@
   },
   "snapshots": [
     {
+      "date": "2026-11-16",
+      "window": "last 90 days",
+      "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
+      "sessions": 16877,
+      "cartAdditions": 834,
+      "reachedCheckout": 587,
+      "completedCheckout": 103,
+      "conversionRate": 0.006102980387509629,
+      "byMarket": [
+        { "country": "United States", "device": "mobile", "sessions": 6710, "completed": 64, "cvr": 0.009538002980625931 },
+        { "country": "United States", "device": "desktop", "sessions": 2750, "completed": 0, "cvr": 0 },
+        { "country": "United Kingdom", "device": "mobile", "sessions": 1420, "completed": 23, "cvr": 0.01619718309859155 },
+        { "country": "Brazil", "device": "desktop", "sessions": 987, "completed": 0, "cvr": 0 },
+        { "country": "Colombia", "device": "desktop", "sessions": 499, "completed": 0, "cvr": 0 },
+        { "country": "South Africa", "device": "mobile", "sessions": 323, "completed": 0, "cvr": 0 },
+        { "country": "Ecuador", "device": "desktop", "sessions": 301, "completed": 0, "cvr": 0 },
+        { "country": "France", "device": "mobile", "sessions": 238, "completed": 1, "cvr": 0.004201680672268907 },
+        { "country": "United Kingdom", "device": "desktop", "sessions": 228, "completed": 1, "cvr": 0.0043859649122807015 },
+        { "country": "Canada", "device": "mobile", "sessions": 211, "completed": 3, "cvr": 0.014218009478672985 },
+        { "country": "Netherlands", "device": "mobile", "sessions": 176, "completed": 4, "cvr": 0.022727272727272728 },
+        { "country": "Brazil", "device": "mobile", "sessions": 155, "completed": 0, "cvr": 0 }
+      ],
+      "note": "Checkout completion 103/587 = 17.55%, down from 17.96% last week, the first dip after four straight weekly rises. Small counts (1 more completed order against 19 more sessions reaching checkout), read as noise not reversal, still nowhere near the 45% floor. US mobile CVR 0.95% (was 1.01%), UK mobile CVR 1.62% (was 1.73%), both slipped slightly together, gap unchanged at roughly 1.7x. Venezuela desktop dropped out of the top 12 this week (was 155 sessions last week), Brazil mobile (155, 0 conversions) took its place; the LatAm desktop zero-conversion block (Brazil+Colombia+Ecuador desktop, excl. Venezuela which is no longer visible in top 12) sits at 1,787 sessions, down from 1,940 combined last week, first sign it may be shrinking rather than growing, one week only. South Africa mobile kept climbing, 304 to 323 sessions, still 0 conversions ever, third straight week of growth.",
+      "returningCustomers": { "returning": 87, "total": 479, "rate": 0.18162839248434237, "window": "last 365 days" },
+      "klaviyoFlows90d": {
+        "_comment": "Klaviyo get_flow_report, conversion metric TEdekd (Placed Order), last_90_days, grouped by flow_name, flow_aggregation totals",
+        "totalConversionValue": 314.36,
+        "rows": [
+          { "flow": "AskTimmy | Welcome Flow", "recipients": 531, "deliveryRate": 0.9793, "openRate": 0.2923, "clickRate": 0.0442, "conversions": 6, "conversionValue": 292.37 },
+          { "flow": "AskTimmy | Abandoned Checkout", "recipients": 239, "deliveryRate": 0.9289, "openRate": 0.2523, "clickRate": 0.027, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Customer Winback Flow", "recipients": 263, "deliveryRate": 0.9582, "openRate": 0.2976, "clickRate": 0.0278, "conversions": 1, "conversionValue": 21.99 },
+          { "flow": "AskTimmy | Customer Thank You", "recipients": 79, "deliveryRate": 0.9747, "openRate": 0.3896, "clickRate": 0.0519, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Post Purchase Flow", "recipients": 265, "deliveryRate": 0.9472, "openRate": 0.2749, "clickRate": 0.008, "conversions": 0, "conversionValue": 0 },
+          { "flow": "AskTimmy | Browse Abandonment", "recipients": 43, "deliveryRate": 0.9767, "openRate": 0.3095, "clickRate": 0.0238, "conversions": 0, "conversionValue": 0 },
+          { "flow": "Upsell · the other half (Butter or Pomade only, day 10)", "recipients": 48, "deliveryRate": 1, "openRate": 0.3958, "clickRate": 0.0417, "conversions": 0, "conversionValue": 0 },
+          { "flow": "Welcome Series - Customer v. Non-Customer", "recipients": 14, "deliveryRate": 1, "openRate": 0.2857, "clickRate": 0, "conversions": 0, "conversionValue": 0, "note": "draft status, not live" }
+        ],
+        "note": "Total flow revenue £314.36, up from £225.83 last week, +£88.53. Welcome Flow picked up another conversion (5 to 6, +£57.44), second straight week of new movement there. Post Purchase (94.72%) and Abandoned Checkout (92.89%) are still both under the 97% deliverability gate target from docs/OCTOBER-LAUNCH.md."
+      },
+      "monthlySalesTimeseries365d": {
+        "note": "Full months only are comparable across readings. Aug/Sep/Oct closed: £1,990.13 / £2,292.23 / £3,313.98 gross. November MTD (day 16 of 30): 27 orders, £1,365.44 gross, AOV £48.44, up from day 8's 14 orders / £537.14 / AOV £36.89. Daily pace roughly £85/day now vs ~£67/day a week ago. Projected full month at this pace: roughly £2,560, in line with the 3-month run rate, not a repeat of October's spike."
+      },
+      "topProducts365d": {
+        "note": "Elite Starter Pack 121 orders / £14,515.26, up from 120 orders static last week, the first new Starter Pack order visible since the flag raised 2026-11-09."
+      }
+    },
+    {
       "date": "2026-11-09",
       "window": "last 90 days",
       "source": "Shopify MCP: FROM sessions SHOW sessions, sessions_with_cart_additions, sessions_that_reached_checkout, sessions_that_completed_checkout, conversion_rate SINCE -90d",
